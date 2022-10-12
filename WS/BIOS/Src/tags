@@ -1,0 +1,713 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BADR_CRT_TRAP_IRQ_00	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	32;"	d
+BADR_CRT_TRAP_IRQ_01	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	33;"	d
+BADR_CRT_TRAP_IRQ_02	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	34;"	d
+BADR_CRT_TRAP_IRQ_03	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	35;"	d
+BADR_CRT_TRAP_IRQ_04	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	36;"	d
+BADR_CRT_TRAP_IRQ_05	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	37;"	d
+BADR_CRT_TRAP_IRQ_06	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	38;"	d
+BADR_CRT_TRAP_IRQ_07	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	39;"	d
+BADR_CRT_TRAP_IRQ_08	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	40;"	d
+BADR_CRT_TRAP_IRQ_09	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	41;"	d
+BADR_CRT_TRAP_IRQ_10	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	42;"	d
+BADR_CRT_TRAP_IRQ_11	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	43;"	d
+BADR_CRT_TRAP_IRQ_12	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	44;"	d
+BADR_CRT_TRAP_IRQ_13	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	45;"	d
+BADR_CRT_TRAP_IRQ_14	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	46;"	d
+BADR_CRT_TRAP_IRQ_15	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	47;"	d
+BASE_BADR_AHB1	.\sys\sys_core.h	32;"	d
+BASE_BADR_AHB2	.\sys\sys_core.h	33;"	d
+BASE_BADR_IP_AFEC	.\sys\sys_core.h	58;"	d
+BASE_BADR_IP_DBGMUXC	.\sys\sys_core.h	56;"	d
+BASE_BADR_IP_DMAC	.\sys\sys_core.h	42;"	d
+BASE_BADR_IP_EFMC	.\sys\sys_core.h	38;"	d
+BASE_BADR_IP_GPIO	.\sys\sys_core.h	39;"	d
+BASE_BADR_IP_I2CM	.\sys\sys_core.h	48;"	d
+BASE_BADR_IP_I2CS	.\sys\sys_core.h	49;"	d
+BASE_BADR_IP_IOPC	.\sys\sys_core.h	43;"	d
+BASE_BADR_IP_MISC	.\sys\sys_core.h	41;"	d
+BASE_BADR_IP_OTPC	.\sys\sys_core.h	53;"	d
+BASE_BADR_IP_PMU	.\sys\sys_core.h	36;"	d
+BASE_BADR_IP_ROM	.\sys\sys_core.h	54;"	d
+BASE_BADR_IP_RSV0	.\sys\sys_core.h	55;"	d
+BASE_BADR_IP_RSV1	.\sys\sys_core.h	57;"	d
+BASE_BADR_IP_SPIM	.\sys\sys_core.h	50;"	d
+BASE_BADR_IP_SPIS	.\sys\sys_core.h	51;"	d
+BASE_BADR_IP_SYSC	.\sys\sys_core.h	37;"	d
+BASE_BADR_IP_TMR0	.\sys\sys_core.h	46;"	d
+BASE_BADR_IP_TMR1	.\sys\sys_core.h	47;"	d
+BASE_BADR_IP_UART	.\sys\sys_core.h	44;"	d
+BASE_BADR_IP_USBFS	.\sys\sys_core.h	52;"	d
+BASE_BADR_IP_WDTC	.\sys\sys_core.h	45;"	d
+BASE_BADR_MA	.\sys\sys_core.h	28;"	d
+BASE_BADR_MB	.\sys\sys_core.h	29;"	d
+BASE_BADR_MC	.\sys\sys_core.h	30;"	d
+BASE_BADR_MD	.\sys\sys_core.h	31;"	d
+BIOS_HCMD_ACC_REG	.\bios_hcmd.c	/^__att_noinline__	void	BIOS_HCMD_ACC_REG ( ) {$/;"	f
+BIOS_HCMD_CLEAR_INT	.\bios_hcmd.c	/^__att_noinline__	void	BIOS_HCMD_CLEAR_INT ( ) {$/;"	f
+BIOS_HCMD_EVAL	.\bios_hcmd.c	/^__att_noinline__	void	BIOS_HCMD_EVAL  (  ) {$/;"	f
+BIOS_HCMD_RUN_CPU	.\bios_hcmd.c	/^__att_noinline__	void	BIOS_HCMD_RUN_CPU ( ) {$/;"	f
+BIOS_HCMD_SE	.\bios_hcmd.c	/^__att_noinline__	void	BIOS_HCMD_SE        ( ) {$/;"	f
+BUOPT_FWLD_SKIP_OFF	.\global_variable.h	/^enum	enum_buopt_fwld_skip	{ BUOPT_FWLD_SKIP_OFF =0x0, BUOPT_FWLD_SKIP_ON =0x1 };$/;"	e	enum:enum_buopt_fwld_skip
+BUOPT_FWLD_SKIP_ON	.\global_variable.h	/^enum	enum_buopt_fwld_skip	{ BUOPT_FWLD_SKIP_OFF =0x0, BUOPT_FWLD_SKIP_ON =0x1 };$/;"	e	enum:enum_buopt_fwld_skip
+BUOPT_FW_AUTORUN_OFF	.\global_variable.h	/^enum	enum_buopt_fw_autorun	{ BUOPT_FW_AUTORUN_OFF=0x0, BUOPT_FW_AUTORUN_ON=0x1 };$/;"	e	enum:enum_buopt_fw_autorun
+BUOPT_FW_AUTORUN_ON	.\global_variable.h	/^enum	enum_buopt_fw_autorun	{ BUOPT_FW_AUTORUN_OFF=0x0, BUOPT_FW_AUTORUN_ON=0x1 };$/;"	e	enum:enum_buopt_fw_autorun
+CSR_MIE_MEIE	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	117;"	d
+CSR_MIE_MFIE_00	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	119;"	d
+CSR_MIE_MFIE_01	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	120;"	d
+CSR_MIE_MFIE_02	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	121;"	d
+CSR_MIE_MFIE_03	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	122;"	d
+CSR_MIE_MFIE_04	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	123;"	d
+CSR_MIE_MFIE_05	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	124;"	d
+CSR_MIE_MFIE_06	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	125;"	d
+CSR_MIE_MFIE_07	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	126;"	d
+CSR_MIE_MFIE_08	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	127;"	d
+CSR_MIE_MFIE_09	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	128;"	d
+CSR_MIE_MFIE_10	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	129;"	d
+CSR_MIE_MFIE_11	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	130;"	d
+CSR_MIE_MFIE_12	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	131;"	d
+CSR_MIE_MFIE_13	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	132;"	d
+CSR_MIE_MFIE_14	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	133;"	d
+CSR_MIE_MFIE_15	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	134;"	d
+CSR_MIE_MFIE_ALL	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	136;"	d
+CSR_MIE_MSIE	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	115;"	d
+CSR_MIE_MTIE	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	116;"	d
+CSR_MSTATUS_MIE	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	112;"	d
+DMAC_CNT_EN_TCH0_RCNT_EN	.\sys\sys_dmac.h	95;"	d
+DMAC_CNT_EN_TCH0_TCNT_EN	.\sys\sys_dmac.h	94;"	d
+DMAC_CNT_EN_TCH1_RCNT_EN	.\sys\sys_dmac.h	97;"	d
+DMAC_CNT_EN_TCH1_TCNT_EN	.\sys\sys_dmac.h	96;"	d
+DMAC_COPY_CTRL_R0_W0_TRIG	.\sys\sys_dmac.h	101;"	d
+DMAC_COPY_CTRL_R0_W1_TRIG	.\sys\sys_dmac.h	99;"	d
+DMAC_COPY_CTRL_R1_W0_TRIG	.\sys\sys_dmac.h	100;"	d
+DMAC_COPY_CTRL_R1_W1_TRIG	.\sys\sys_dmac.h	102;"	d
+DMAC_CTRL_AC_BLK_RST	.\sys\sys_dmac.h	36;"	d
+DMAC_CTRL_ST_FORCE_TCH0_EOP	.\sys\sys_dmac.h	33;"	d
+DMAC_CTRL_ST_FORCE_TCH1_EOP	.\sys\sys_dmac.h	34;"	d
+DMAC_FLOW_CTRL_RCH0_TCH0_BUSY	.\sys\sys_dmac.h	52;"	d
+DMAC_FLOW_CTRL_RCH0_TCH0_EN	.\sys\sys_dmac.h	43;"	d
+DMAC_FLOW_CTRL_RCH0_TCH0_EN_RD	.\sys\sys_dmac.h	61;"	d
+DMAC_FLOW_CTRL_RCH0_TCH1_BUSY	.\sys\sys_dmac.h	56;"	d
+DMAC_FLOW_CTRL_RCH0_TCH1_EN	.\sys\sys_dmac.h	47;"	d
+DMAC_FLOW_CTRL_RCH0_TCH1_EN_RD	.\sys\sys_dmac.h	65;"	d
+DMAC_FLOW_CTRL_RCH0_TCH_CLR	.\sys\sys_dmac.h	38;"	d
+DMAC_FLOW_CTRL_RCH1_TCH0_BUSY	.\sys\sys_dmac.h	53;"	d
+DMAC_FLOW_CTRL_RCH1_TCH0_EN	.\sys\sys_dmac.h	44;"	d
+DMAC_FLOW_CTRL_RCH1_TCH0_EN_RD	.\sys\sys_dmac.h	62;"	d
+DMAC_FLOW_CTRL_RCH1_TCH1_BUSY	.\sys\sys_dmac.h	57;"	d
+DMAC_FLOW_CTRL_RCH1_TCH1_EN	.\sys\sys_dmac.h	48;"	d
+DMAC_FLOW_CTRL_RCH1_TCH1_EN_RD	.\sys\sys_dmac.h	66;"	d
+DMAC_FLOW_CTRL_RCH1_TCH_CLR	.\sys\sys_dmac.h	39;"	d
+DMAC_FLOW_CTRL_RCH2_TCH0_BUSY	.\sys\sys_dmac.h	54;"	d
+DMAC_FLOW_CTRL_RCH2_TCH0_EN	.\sys\sys_dmac.h	45;"	d
+DMAC_FLOW_CTRL_RCH2_TCH0_EN_RD	.\sys\sys_dmac.h	63;"	d
+DMAC_FLOW_CTRL_RCH2_TCH1_BUSY	.\sys\sys_dmac.h	58;"	d
+DMAC_FLOW_CTRL_RCH2_TCH1_EN	.\sys\sys_dmac.h	49;"	d
+DMAC_FLOW_CTRL_RCH2_TCH1_EN_RD	.\sys\sys_dmac.h	67;"	d
+DMAC_FLOW_CTRL_RCH2_TCH_CLR	.\sys\sys_dmac.h	40;"	d
+DMAC_FLOW_CTRL_RCH3_TCH0_BUSY	.\sys\sys_dmac.h	55;"	d
+DMAC_FLOW_CTRL_RCH3_TCH0_EN	.\sys\sys_dmac.h	46;"	d
+DMAC_FLOW_CTRL_RCH3_TCH0_EN_RD	.\sys\sys_dmac.h	64;"	d
+DMAC_FLOW_CTRL_RCH3_TCH1_BUSY	.\sys\sys_dmac.h	59;"	d
+DMAC_FLOW_CTRL_RCH3_TCH1_EN	.\sys\sys_dmac.h	50;"	d
+DMAC_FLOW_CTRL_RCH3_TCH1_EN_RD	.\sys\sys_dmac.h	68;"	d
+DMAC_FLOW_CTRL_RCH3_TCH_CLR	.\sys\sys_dmac.h	41;"	d
+DMAC_INT_RCH0_EOP	.\sys\sys_dmac.h	24;"	d
+DMAC_INT_RCH1_EOP	.\sys\sys_dmac.h	25;"	d
+DMAC_INT_RCH2_EOP	.\sys\sys_dmac.h	26;"	d
+DMAC_INT_RCH3_EOP	.\sys\sys_dmac.h	27;"	d
+DMAC_RCH0_SRC_SEL_0_I2CS	.\sys\sys_dmac.h	75;"	d
+DMAC_RCH0_SRC_SEL_1_SPIS	.\sys\sys_dmac.h	76;"	d
+DMAC_RCH0_SRC_SEL_2_USBD	.\sys\sys_dmac.h	77;"	d
+DMAC_RCH0_SRC_SEL_3_UART	.\sys\sys_dmac.h	78;"	d
+DMAC_RCH0_SRC_SEL_CLR	.\sys\sys_dmac.h	70;"	d
+DMAC_RCH1_SRC_SEL_0_SPIS	.\sys\sys_dmac.h	80;"	d
+DMAC_RCH1_SRC_SEL_1_I2CS	.\sys\sys_dmac.h	81;"	d
+DMAC_RCH1_SRC_SEL_2_SPIM	.\sys\sys_dmac.h	82;"	d
+DMAC_RCH1_SRC_SEL_3_I2CM	.\sys\sys_dmac.h	83;"	d
+DMAC_RCH1_SRC_SEL_CLR	.\sys\sys_dmac.h	71;"	d
+DMAC_RCH2_SRC_SEL_0_USBD	.\sys\sys_dmac.h	85;"	d
+DMAC_RCH2_SRC_SEL_1_SPIM	.\sys\sys_dmac.h	86;"	d
+DMAC_RCH2_SRC_SEL_2_I2CM	.\sys\sys_dmac.h	87;"	d
+DMAC_RCH2_SRC_SEL_3_TDFE	.\sys\sys_dmac.h	88;"	d
+DMAC_RCH2_SRC_SEL_CLR	.\sys\sys_dmac.h	72;"	d
+DMAC_RCH3_SRC_SEL_0_MEMCP	.\sys\sys_dmac.h	92;"	d
+DMAC_RCH3_SRC_SEL_0_UART	.\sys\sys_dmac.h	90;"	d
+DMAC_RCH3_SRC_SEL_1_MISC	.\sys\sys_dmac.h	91;"	d
+DMAC_RCH3_SRC_SEL_CLR	.\sys\sys_dmac.h	73;"	d
+DMAC_ST_COPY_BUSY	.\sys\sys_dmac.h	31;"	d
+DMAC_ST_TCH0_BUSY	.\sys\sys_dmac.h	29;"	d
+DMAC_ST_TCH1_BUSY	.\sys\sys_dmac.h	30;"	d
+DM_END_BADR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	40;"	d
+DM_STACK_END_BADR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	42;"	d
+DM_STACK_START_BADR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	41;"	d
+DM_START_BADR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	39;"	d
+EN_SPIM_CLKOFF	.\sys\sys_spim.h	33;"	d
+EN_SPIM_DMA	.\sys\sys_spim.h	30;"	d
+EN_SPIM_DREAD	.\sys\sys_spim.h	31;"	d
+EN_SPIM_INT	.\sys\sys_spim.h	34;"	d
+EN_SPIM_QREAD	.\sys\sys_spim.h	32;"	d
+EXC_CAUSE_BREAKPOINT	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	38;"	d
+EXC_CAUSE_DIV_BY_ZERO	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	48;"	d
+EXC_CAUSE_ECALL_MMODE	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	42;"	d
+EXC_CAUSE_ECALL_UMODE	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	41;"	d
+EXC_CAUSE_ILLEGAL_INSN	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	37;"	d
+EXC_CAUSE_INSTR_FAULT	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	36;"	d
+EXC_CAUSE_LOAD_FAULT	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	39;"	d
+EXC_CAUSE_SP_CORRUPT	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	47;"	d
+EXC_CAUSE_SP_OV_FLOW	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	45;"	d
+EXC_CAUSE_SP_UD_FLOW	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	46;"	d
+EXC_CAUSE_STORE_FAULT	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	40;"	d
+FAIL_CODE_FWINFO_FAIL	.\global_variable.h	116;"	d
+FAIL_CODE_FW_FAIL	.\global_variable.h	117;"	d
+FAIL_CODE_SYSCFG_FAIL	.\global_variable.h	115;"	d
+FAIL_NONE	.\global_variable.h	114;"	d
+FP_1ARG	.\sys\sys_define.h	/^typedef void		(*FP_1ARG)(uint32_t arg0);$/;"	t
+FP_2ARG	.\sys\sys_define.h	/^typedef void		(*FP_2ARG)(uint32_t arg0, uint32_t arg1 );$/;"	t
+FP_3ARG	.\sys\sys_define.h	/^typedef void		(*FP_3ARG)(uint32_t arg0, uint32_t arg1, uint32_t arg2 );$/;"	t
+FP_4ARG	.\sys\sys_define.h	/^typedef void		(*FP_4ARG)(uint32_t arg0, uint32_t arg1, uint32_t arg2, uint32_t arg3 );$/;"	t
+FP_VOID	.\main_bios.c	/^typedef void		(*FP_VOID)(void);$/;"	t	file:
+FP_VOID	.\sys\sys_define.h	/^typedef void		(*FP_VOID)(void);$/;"	t
+FW_SECT_FWINFO_USERSET	.\global_variable.h	107;"	d
+FW_SECT_SYSCFG_SEARCH	.\global_variable.h	105;"	d
+FW_SECT_SYSCFG_USERSET	.\global_variable.h	106;"	d
+GPIO_GPI_A_SYNC_EN	.\sys\sys_gpio.h	25;"	d
+GPIO_GPI_B_SYNC_EN	.\sys\sys_gpio.h	26;"	d
+HAUX_BU_FORCE_BIOS	.\global_code.h	34;"	d
+HAUX_BU_ING	.\global_code.h	32;"	d
+HAUX_BU_OK	.\global_code.h	33;"	d
+HAUX_FWLD_FAIL	.\global_code.h	37;"	d
+HAUX_FWLD_OK	.\global_code.h	36;"	d
+HAUX_FWLD_SKIP	.\global_code.h	35;"	d
+HAUX_HCMD_SERVICE	.\global_code.h	38;"	d
+HAUX_NONE	.\global_code.h	31;"	d
+HTST_BIOS	.\global_code.h	27;"	d
+HTST_BIOS_AUX	.\global_code.h	28;"	d
+HTST_BIOS_BUSY	.\global_code.h	29;"	d
+HTST_NONE	.\global_code.h	26;"	d
+I2CS_CTRL_AC_BLK_RST	.\sys\sys_i2cs.h	43;"	d
+I2CS_CTRL_ST_DEV_EN	.\sys\sys_i2cs.h	38;"	d
+I2CS_CTRL_ST_SCL_STRETCH_EN	.\sys\sys_i2cs.h	39;"	d
+I2CS_CTRL_ST_USE_EXT_DA_EN	.\sys\sys_i2cs.h	41;"	d
+I2CS_CTRL_ST_WAKEUP_EN	.\sys\sys_i2cs.h	40;"	d
+I2CS_CTRL_TX_PHY_CLR	.\sys\sys_i2cs.h	44;"	d
+I2CS_DMA_EN_RD	.\sys\sys_i2cs.h	46;"	d
+I2CS_DMA_EN_WR	.\sys\sys_i2cs.h	47;"	d
+I2CS_DMA_RDEN_AUTOCLR_AT_RESTART	.\sys\sys_i2cs.h	50;"	d
+I2CS_DMA_RDEN_AUTOCLR_AT_START	.\sys\sys_i2cs.h	49;"	d
+I2CS_DMA_RDEN_AUTOCLR_AT_STOP	.\sys\sys_i2cs.h	51;"	d
+I2CS_INT_DMA_BADR_OB	.\sys\sys_i2cs.h	30;"	d
+I2CS_INT_GENERAL_CALL_DET	.\sys\sys_i2cs.h	27;"	d
+I2CS_INT_RESTART_DET	.\sys\sys_i2cs.h	25;"	d
+I2CS_INT_RX_DATA_EXECUTED	.\sys\sys_i2cs.h	29;"	d
+I2CS_INT_START_DET	.\sys\sys_i2cs.h	24;"	d
+I2CS_INT_STOP_DET	.\sys\sys_i2cs.h	26;"	d
+I2CS_INT_TX_DATA_EXECUTED	.\sys\sys_i2cs.h	28;"	d
+I2CS_ST_BUSY	.\sys\sys_i2cs.h	32;"	d
+I2CS_ST_DMA_WR_BUSY	.\sys\sys_i2cs.h	33;"	d
+I2CS_ST_FSM	.\sys\sys_i2cs.h	36;"	d
+I2CS_ST_SCL_SIG_LEVEL	.\sys\sys_i2cs.h	35;"	d
+I2CS_ST_SDA_SIG_LEVEL	.\sys\sys_i2cs.h	34;"	d
+INT_ID_DMAC	.\sys\sys_core.h	70;"	d
+INT_ID_ESFM	.\sys\sys_core.h	66;"	d
+INT_ID_GPIO	.\sys\sys_core.h	67;"	d
+INT_ID_I2CM	.\sys\sys_core.h	75;"	d
+INT_ID_I2CS	.\sys\sys_core.h	76;"	d
+INT_ID_MISC	.\sys\sys_core.h	69;"	d
+INT_ID_OTPC	.\sys\sys_core.h	80;"	d
+INT_ID_PMU	.\sys\sys_core.h	65;"	d
+INT_ID_Rsvd_3	.\sys\sys_core.h	68;"	d
+INT_ID_SPIM	.\sys\sys_core.h	77;"	d
+INT_ID_SPIS	.\sys\sys_core.h	78;"	d
+INT_ID_TIMER0	.\sys\sys_core.h	73;"	d
+INT_ID_TIMER1	.\sys\sys_core.h	74;"	d
+INT_ID_UART	.\sys\sys_core.h	71;"	d
+INT_ID_USBD	.\sys\sys_core.h	79;"	d
+INT_ID_WDTC	.\sys\sys_core.h	72;"	d
+LAMBDA_SPB_EINT_BASE	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	67;"	d
+LAMBDA_SPB_EINT_BASE	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	68;"	d
+LAMBDA_SPB_EINT_CAC	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	74;"	d
+LAMBDA_SPB_EINT_CST	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	73;"	d
+LAMBDA_SPB_EINT_INT_MRS	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	71;"	d
+LAMBDA_SPB_EINT_INT_MSK	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	69;"	d
+LAMBDA_SPB_EINT_INT_SRC	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	70;"	d
+LAMBDA_SPB_EINT_STR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	72;"	d
+LAMBDA_SPB_GPIO_BASE	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	49;"	d
+LAMBDA_SPB_GPIO_GPOE_A	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	51;"	d
+LAMBDA_SPB_GPIO_GPO_A	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	50;"	d
+LAMBDA_SPB_UART_BASE	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	53;"	d
+LAMBDA_SPB_UART_CAC	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	59;"	d
+LAMBDA_SPB_UART_CST	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	58;"	d
+LAMBDA_SPB_UART_FLOW	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	60;"	d
+LAMBDA_SPB_UART_INT_MRS	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	56;"	d
+LAMBDA_SPB_UART_INT_MSK	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	54;"	d
+LAMBDA_SPB_UART_INT_SRC	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	55;"	d
+LAMBDA_SPB_UART_STR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	57;"	d
+LAMBDA_SPB_UART_TRX_BUF0	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	62;"	d
+LAMBDA_SPB_UART_TRX_BUF1	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	63;"	d
+LAMBDA_SPB_UART_TRX_BUF2	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	64;"	d
+LAMBDA_SPB_UART_TRX_BUF3	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	65;"	d
+LEFT	.\UTIL\printf.c	34;"	d	file:
+MODE_HINTN_ASSERT_AFTER_HCMD	.\global_variable.h	/^enum	enum_hintn_assert	{ MODE_HINTN_NOCHANGE_AFTER_HCMD = 0,  MODE_HINTN_ASSERT_AFTER_HCMD = 1 };$/;"	e	enum:enum_hintn_assert
+MODE_HINTN_NOCHANGE_AFTER_HCMD	.\global_variable.h	/^enum	enum_hintn_assert	{ MODE_HINTN_NOCHANGE_AFTER_HCMD = 0,  MODE_HINTN_ASSERT_AFTER_HCMD = 1 };$/;"	e	enum:enum_hintn_assert
+MODE_HINTN_OD	.\global_variable.h	/^enum	enum_mode_hintn		{ MODE_HINTN_OD = 0, MODE_HINTN_PP = 1 };$/;"	e	enum:enum_mode_hintn
+MODE_HINTN_PP	.\global_variable.h	/^enum	enum_mode_hintn		{ MODE_HINTN_OD = 0, MODE_HINTN_PP = 1 };$/;"	e	enum:enum_mode_hintn
+NB_FW_READ	.\global_variable.h	119;"	d
+OPT_SPIM_RD_DUAL	.\global_variable.h	/^enum	enum_opt_spim_rd	{ OPT_SPIM_RD_SINGLE = 0x0, OPT_SPIM_RD_DUAL = 0x1, OPT_SPIM_RD_QUAD = 0x2 };$/;"	e	enum:enum_opt_spim_rd
+OPT_SPIM_RD_QUAD	.\global_variable.h	/^enum	enum_opt_spim_rd	{ OPT_SPIM_RD_SINGLE = 0x0, OPT_SPIM_RD_DUAL = 0x1, OPT_SPIM_RD_QUAD = 0x2 };$/;"	e	enum:enum_opt_spim_rd
+OPT_SPIM_RD_SINGLE	.\global_variable.h	/^enum	enum_opt_spim_rd	{ OPT_SPIM_RD_SINGLE = 0x0, OPT_SPIM_RD_DUAL = 0x1, OPT_SPIM_RD_QUAD = 0x2 };$/;"	e	enum:enum_opt_spim_rd
+OPT_SPIM_SCLK_SYS_DIV16	.\global_variable.h	/^enum	enum_opt_spim_sclk	{ OPT_SPIM_SCLK_SYS_DIV16 = 0x0, OPT_SPIM_SCLK_SYS_DIV8 = 0x1, OPT_SPIM_SCLK_SYS_DIV4 = 0x2, OPT_SPIM_SCLK_SYS_DIV2 = 0x3 };$/;"	e	enum:enum_opt_spim_sclk
+OPT_SPIM_SCLK_SYS_DIV2	.\global_variable.h	/^enum	enum_opt_spim_sclk	{ OPT_SPIM_SCLK_SYS_DIV16 = 0x0, OPT_SPIM_SCLK_SYS_DIV8 = 0x1, OPT_SPIM_SCLK_SYS_DIV4 = 0x2, OPT_SPIM_SCLK_SYS_DIV2 = 0x3 };$/;"	e	enum:enum_opt_spim_sclk
+OPT_SPIM_SCLK_SYS_DIV4	.\global_variable.h	/^enum	enum_opt_spim_sclk	{ OPT_SPIM_SCLK_SYS_DIV16 = 0x0, OPT_SPIM_SCLK_SYS_DIV8 = 0x1, OPT_SPIM_SCLK_SYS_DIV4 = 0x2, OPT_SPIM_SCLK_SYS_DIV2 = 0x3 };$/;"	e	enum:enum_opt_spim_sclk
+OPT_SPIM_SCLK_SYS_DIV8	.\global_variable.h	/^enum	enum_opt_spim_sclk	{ OPT_SPIM_SCLK_SYS_DIV16 = 0x0, OPT_SPIM_SCLK_SYS_DIV8 = 0x1, OPT_SPIM_SCLK_SYS_DIV4 = 0x2, OPT_SPIM_SCLK_SYS_DIV2 = 0x3 };$/;"	e	enum:enum_opt_spim_sclk
+OUTPORT	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	47;"	d
+PLUS	.\UTIL\printf.c	32;"	d	file:
+PM_START_BADR	.\CRT0_LD_TRAP_CSR\crs32v_sys_config.h	38;"	d
+POS_BADR_HRDP	.\global_variable.h	27;"	d
+POS_BADR_HWDP	.\global_variable.h	26;"	d
+POS_HAUX_IN_HRDP16	.\global_variable.h	30;"	d
+POS_HTST_IN_HRDP16	.\global_variable.h	29;"	d
+RCH0_MAX_RUN_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH0_MAX_RUN_CYCLE;	\/\/ 0x11 [15:0]	max run         cycle after RCH0 DREQ$/;"	m	struct:__anon1
+RCH0_MAX_TRANS_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH0_MAX_TRANS_CYCLE;	\/\/ 0x10 [15:0]	max transaction cycle after RCH0 DREQ$/;"	m	struct:__anon1
+RCH1_MAX_RUN_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH1_MAX_RUN_CYCLE;	\/\/ 0x13 [15:0]	max run         cycle after RCH1 DREQ$/;"	m	struct:__anon1
+RCH1_MAX_TRANS_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH1_MAX_TRANS_CYCLE;	\/\/ 0x12 [15:0]	max transaction cycle after RCH1 DREQ$/;"	m	struct:__anon1
+RCH2_MAX_RUN_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH2_MAX_RUN_CYCLE;	\/\/ 0x15 [15:0]	max run         cycle after RCH2 DREQ$/;"	m	struct:__anon1
+RCH2_MAX_TRANS_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH2_MAX_TRANS_CYCLE;	\/\/ 0x14 [15:0]	max transaction cycle after RCH2 DREQ$/;"	m	struct:__anon1
+RCH3_MAX_RUN_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH3_MAX_RUN_CYCLE;	\/\/ 0x17 [15:0]	max run         cycle after RCH3 DREQ$/;"	m	struct:__anon1
+RCH3_MAX_TRANS_CYCLE	.\sys\sys_dmac.h	/^	uint32_t	RCH3_MAX_TRANS_CYCLE;	\/\/ 0x16 [15:0]	max transaction cycle after RCH3 DREQ$/;"	m	struct:__anon1
+RES_FAIL	.\global_variable.h	/^enum	enum_res_ret		{ RES_OK=0x0, RES_FAIL=0x1 };$/;"	e	enum:enum_res_ret
+RES_OK	.\global_variable.h	/^enum	enum_res_ret		{ RES_OK=0x0, RES_FAIL=0x1 };$/;"	e	enum:enum_res_ret
+SIGN	.\UTIL\printf.c	31;"	d	file:
+SMALL	.\UTIL\printf.c	35;"	d	file:
+SPACE	.\UTIL\printf.c	33;"	d	file:
+SPECIAL	.\UTIL\printf.c	36;"	d	file:
+SPIM_CTRL_AC_BLK_RST	.\sys\sys_spim.h	51;"	d
+SPIM_CTRL_AC_TASK_TRIG	.\sys\sys_spim.h	52;"	d
+SYSC_SR_PAD1_BY_MB	.\sys\sys_sysc.h	24;"	d
+SYSC_SR_PAD1_BY_PB	.\sys\sys_sysc.h	25;"	d
+SYSC_SR_PAD2_BY_MC	.\sys\sys_sysc.h	27;"	d
+SYSC_SR_PAD2_BY_PC	.\sys\sys_sysc.h	26;"	d
+TCH0_CP_ST_ADD	.\sys\sys_dmac.h	/^	uint32_t	TCH0_CP_ST_ADD;		\/\/ 0x0B [15:0]	TCH0 copy start address$/;"	m	struct:__anon1
+TCH1_CP_ST_ADD	.\sys\sys_dmac.h	/^	uint32_t	TCH1_CP_ST_ADD;		\/\/ 0x0C [15:0]	TCH1 copy start address$/;"	m	struct:__anon1
+TID_IDLE	.\sys\sys_spim.h	36;"	d
+TID_INT_PKT_DLY	.\sys\sys_spim.h	48;"	d
+TID_RDAT_1IO	.\sys\sys_spim.h	45;"	d
+TID_RDAT_2IO	.\sys\sys_spim.h	46;"	d
+TID_RDAT_4IO	.\sys\sys_spim.h	47;"	d
+TID_SSN_REL	.\sys\sys_spim.h	38;"	d
+TID_SSN_SEL	.\sys\sys_spim.h	37;"	d
+TID_WCMD_1IO	.\sys\sys_spim.h	39;"	d
+TID_WCMD_2IO	.\sys\sys_spim.h	40;"	d
+TID_WCMD_4IO	.\sys\sys_spim.h	41;"	d
+TID_WDAT_1IO	.\sys\sys_spim.h	42;"	d
+TID_WDAT_2IO	.\sys\sys_spim.h	43;"	d
+TID_WDAT_4IO	.\sys\sys_spim.h	44;"	d
+ZEROPAD	.\UTIL\printf.c	30;"	d	file:
+__BIOS_BU_H__	.\bios_bu.h	20;"	d
+__BIOS_HCMD_H__	.\bios_hcmd.h	20;"	d
+__CRS32V_CSR_H__	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	25;"	d
+__CRS32V_IN_H__	.\crs32v_int.h	22;"	d
+__CRS32V_PRINT_H__	.\UTIL\crs32v_print.h	6;"	d
+__CRS32V_SYS_UTIL_H__	.\UTIL\crs32v_sys_util.h	24;"	d
+__CRS32V_TRAP_HANDLER_EXC_H__	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.h	32;"	d
+__CRS32V_TRAP_HANDLER_IRQ_H__	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.h	5;"	d
+__DEF_DAY__	.\sys\sys_define.h	106;"	d
+__DEF_HOUR__	.\sys\sys_define.h	113;"	d
+__DEF_MIN__	.\sys\sys_define.h	117;"	d
+__DEF_MONTH__	.\sys\sys_define.h	88;"	d
+__DEF_SEC__	.\sys\sys_define.h	121;"	d
+__DEF_YEAR__	.\sys\sys_define.h	82;"	d
+__GLOBAL_CODE_H__	.\global_code.h	20;"	d
+__GLOBAL_INCLUDE_H__	.\global_include.h	22;"	d
+__GLOBAL_VARIABLE_H__	.\global_variable.h	20;"	d
+__MAIN_BIOS_H__	.\main_bios.h	20;"	d
+__PRINTF__H__	.\UTIL\printf.h	12;"	d
+__SYS_CORE_H__	.\sys\sys_core.h	23;"	d
+__SYS_DEFINE_H__	.\sys\sys_define.h	22;"	d
+__SYS_DMAC_H__	.\sys\sys_dmac.h	20;"	d
+__SYS_GPIO_H__	.\sys\sys_gpio.h	20;"	d
+__SYS_I2CS_H__	.\sys\sys_i2cs.h	20;"	d
+__SYS_IOPC_H__	.\sys\sys_iopc.h	20;"	d
+__SYS_MON_H__	.\sys\sys_mon.h	22;"	d
+__SYS_SPIM_H__	.\sys\sys_spim.h	20;"	d
+__SYS_SYSC_H__	.\sys\sys_sysc.h	20;"	d
+__att_inline__	.\sys\sys_define.h	39;"	d
+__att_noinline__	.\sys\sys_define.h	37;"	d
+__att_unused__	.\sys\sys_define.h	38;"	d
+__run_div	.\UTIL\printf.c	38;"	d	file:
+_boot_clear_bss_loop	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_boot_clear_bss_loop:$/;"	l
+_boot_clear_bss_start	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_boot_clear_bss_start:$/;"	l
+_boot_init	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_boot_init:$/;"	l
+_boot_libc_init	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_boot_libc_init:$/;"	l
+_fini	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_fini:$/;"	l
+_init	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_init:$/;"	l
+_main_exit	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_main_exit:$/;"	l
+_msg_exit	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_msg_exit:$/;"	l
+_msg_trap_na	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_msg_trap_na:$/;"	l
+_msg_trap_wrong	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_msg_trap_wrong:$/;"	l
+_start	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	_start:$/;"	l
+_trap_handler_exc	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_exc.c	/^void	_trap_handler_exc()$/;"	f
+_trap_handler_irq_00	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_00()	{$/;"	f
+_trap_handler_irq_01	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_01()	{$/;"	f
+_trap_handler_irq_02	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_02()	{$/;"	f
+_trap_handler_irq_03	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_03()	{$/;"	f
+_trap_handler_irq_04	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_04()	{$/;"	f
+_trap_handler_irq_05	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_05()	{$/;"	f
+_trap_handler_irq_06	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_06()	{$/;"	f
+_trap_handler_irq_07	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_07()	{$/;"	f
+_trap_handler_irq_08	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_08()	{$/;"	f
+_trap_handler_irq_09	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_09()	{$/;"	f
+_trap_handler_irq_10	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_10()	{$/;"	f
+_trap_handler_irq_11	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_11()	{$/;"	f
+_trap_handler_irq_12	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_12()	{$/;"	f
+_trap_handler_irq_13	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_13()	{$/;"	f
+_trap_handler_irq_14	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_14()	{$/;"	f
+_trap_handler_irq_15	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_irq_15()	{$/;"	f
+_trap_handler_mei	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_mei()	{$/;"	f
+_trap_handler_msi	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_msi()	{$/;"	f
+_trap_handler_mti	.\CRT0_LD_TRAP_CSR\TRAP\crs32v_trap_handler_irq.c	/^void	_trap_handler_mti()	{$/;"	f
+_trap_vector_standard	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^		_trap_vector_standard:$/;"	l
+basic_delay	.\UTIL\crs32v_sys_util.c	/^void	basic_delay(unsigned long delay_time)$/;"	f
+bu_fwld	.\bios_bu.c	/^__att_noinline__	enum enum_res_ret	bu_fwld ( uint8_t  ld_opt, uint32_t ld_ef_badd ) {$/;"	f
+buf16	.\global_variable.h	/^	uint16_t *			buf16;$/;"	m	struct:struct_gss
+buf32	.\global_variable.h	/^	uint32_t *			buf32;$/;"	m	struct:struct_gss
+buf8	.\global_variable.h	/^	uint8_t				buf8[512+32];$/;"	m	struct:struct_gss
+buopt_fw_autorun	.\global_variable.h	/^	enum	enum_buopt_fw_autorun	buopt_fw_autorun;$/;"	m	struct:struct_gss	typeref:enum:struct_gss::enum_buopt_fw_autorun
+buopt_fwld_skip	.\global_variable.h	/^	enum	enum_buopt_fwld_skip	buopt_fwld_skip;$/;"	m	struct:struct_gss	typeref:enum:struct_gss::enum_buopt_fwld_skip
+clk_div	.\sys\sys_spim.h	/^	uint32_t		clk_div;	\/\/ 0x08	[15:8]	Even divider $/;"	m	struct:__anon6
+cnt_en	.\sys\sys_dmac.h	/^	uint32_t	cnt_en;			\/\/ 0x08 [3:0]  [0]TCH0 TCYC, [1]TCH0 RCYC, [2]TCH1 TCYC, [3]TCH1 RCYC$/;"	m	struct:__anon1
+cp_ctrl	.\sys\sys_dmac.h	/^	uint32_t	cp_ctrl;		\/\/ 0x09 [1:0]  [0]copy trig, from TCH0 to TCH1, AC$/;"	m	struct:__anon1
+cp_word_cnt	.\sys\sys_dmac.h	/^	uint32_t	cp_word_cnt;		\/\/ 0x0A [15:0]	copy word count    0: 1word$/;"	m	struct:__anon1
+crs32v_int_check	.\crs32v_int.c	/^void	crs32v_int_check()$/;"	f
+crs32v_int_check_mtsf	.\crs32v_int.c	/^void	crs32v_int_check_mtsf()$/;"	f
+crs32v_number	.\UTIL\printf.c	/^static char *crs32v_number(char *str, long num, int base, int size, int precision,$/;"	f	file:
+crs32v_printf	.\UTIL\printf.c	/^int crs32v_printf(const char *fmt, ...)$/;"	f
+crs32v_skip_atoi	.\UTIL\printf.c	/^static int crs32v_skip_atoi(const char **s)$/;"	f	file:
+crs32v_trap_mei	.\crs32v_int.c	/^void	crs32v_trap_mei()$/;"	f
+crs32v_trap_mfi_00	.\crs32v_int.c	/^void	crs32v_trap_mfi_00()$/;"	f
+crs32v_trap_mfi_01	.\crs32v_int.c	/^void	crs32v_trap_mfi_01()$/;"	f
+crs32v_trap_mfi_02	.\crs32v_int.c	/^void	crs32v_trap_mfi_02()$/;"	f
+crs32v_trap_mfi_03	.\crs32v_int.c	/^void	crs32v_trap_mfi_03()$/;"	f
+crs32v_trap_mfi_04	.\crs32v_int.c	/^void	crs32v_trap_mfi_04()$/;"	f
+crs32v_trap_mfi_05	.\crs32v_int.c	/^void	crs32v_trap_mfi_05()$/;"	f
+crs32v_trap_mfi_06	.\crs32v_int.c	/^void	crs32v_trap_mfi_06()$/;"	f
+crs32v_trap_mfi_07	.\crs32v_int.c	/^void	crs32v_trap_mfi_07()$/;"	f
+crs32v_trap_mfi_08	.\crs32v_int.c	/^void	crs32v_trap_mfi_08()$/;"	f
+crs32v_trap_mfi_09	.\crs32v_int.c	/^void	crs32v_trap_mfi_09()$/;"	f
+crs32v_trap_mfi_10	.\crs32v_int.c	/^void	crs32v_trap_mfi_10()$/;"	f
+crs32v_trap_mfi_11	.\crs32v_int.c	/^void	crs32v_trap_mfi_11()$/;"	f
+crs32v_trap_mfi_12	.\crs32v_int.c	/^void	crs32v_trap_mfi_12()$/;"	f
+crs32v_trap_mfi_13	.\crs32v_int.c	/^void	crs32v_trap_mfi_13()$/;"	f
+crs32v_trap_mfi_14	.\crs32v_int.c	/^void	crs32v_trap_mfi_14()$/;"	f
+crs32v_trap_mfi_15	.\crs32v_int.c	/^void	crs32v_trap_mfi_15()$/;"	f
+crs32v_trap_msi	.\crs32v_int.c	/^void	crs32v_trap_msi()$/;"	f
+crs32v_trap_mti	.\crs32v_int.c	/^void	crs32v_trap_mti()$/;"	f
+crs32v_vsprintf	.\UTIL\printf.c	/^int crs32v_vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+crt_trap_na	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	crt_trap_na:$/;"	l
+crt_trap_pop_rf	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	crt_trap_pop_rf:$/;"	l
+crt_trap_push_rf	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	crt_trap_push_rf:$/;"	l
+crt_trap_wrong	.\CRT0_LD_TRAP_CSR\crs32v_crt0.S	/^	crt_trap_wrong:$/;"	l
+csr_check	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.c	/^void	csr_check()$/;"	f
+csr_clear	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	198;"	d
+csr_cleari	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	205;"	d
+csr_exc_init_stack_check	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.c	/^void	csr_exc_init_stack_check()$/;"	f
+csr_glb_int_disable	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	225;"	d
+csr_glb_int_enable	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	224;"	d
+csr_int_init_fast_int_vector	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.c	/^void	csr_int_init_fast_int_vector()$/;"	f
+csr_read	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	153;"	d
+csr_read_clear	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	190;"	d
+csr_read_set	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	168;"	d
+csr_set	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	176;"	d
+csr_seti	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	183;"	d
+csr_swap	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	145;"	d
+csr_write	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	161;"	d
+ctrl_ac	.\sys\sys_dmac.h	/^	uint32_t	ctrl_ac;		\/\/ 0x05	dynamic control$/;"	m	struct:__anon1
+ctrl_ac	.\sys\sys_gpio.h	/^	uint32_t	ctrl_ac;		\/\/ 0x05 $/;"	m	struct:__anon2
+ctrl_ac	.\sys\sys_i2cs.h	/^	uint32_t		ctrl_ac;		\/\/ 0x05	Auto-Clr Control	[2] RX_PHY_CLR$/;"	m	struct:__anon3
+ctrl_ac	.\sys\sys_iopc.h	/^	uint32_t	ctrl_ac;		\/\/ 0x05	Control Auto Clear$/;"	m	struct:__anon4
+ctrl_ac	.\sys\sys_spim.h	/^	uint32_t		ctrl_ac;	\/\/ 0x05	[15:0]	Control Auto-clear$/;"	m	struct:__anon6
+ctrl_ac	.\sys\sys_sysc.h	/^	uint32_t		ctrl_ac;	\/\/ 0x05	$/;"	m	struct:__anon7
+ctrl_st	.\sys\sys_dmac.h	/^	uint32_t	ctrl_st;		\/\/ 0x04	static control$/;"	m	struct:__anon1
+ctrl_st	.\sys\sys_gpio.h	/^	uint32_t	ctrl_st;		\/\/ 0x04 $/;"	m	struct:__anon2
+ctrl_st	.\sys\sys_i2cs.h	/^	uint32_t		ctrl_st;		\/\/ 0x04	Static Control (W\/R)	[7] IGNORE_DEV_ADR_3_1 (24L16 emulating)	[3] GLB_CMD_EN$/;"	m	struct:__anon3
+ctrl_st	.\sys\sys_iopc.h	/^	uint32_t	ctrl_st;		\/\/ 0x04 Control Static$/;"	m	struct:__anon4
+ctrl_st	.\sys\sys_spim.h	/^	uint32_t		ctrl_st;	\/\/ 0x04	[15:0]	Control Static$/;"	m	struct:__anon6
+ctrl_st	.\sys\sys_sysc.h	/^	uint32_t		ctrl_st;	\/\/ 0x04$/;"	m	struct:__anon7
+cur_tch0_rcnt	.\sys\sys_dmac.h	/^	uint32_t	cur_tch0_rcnt;		\/\/ 0x21	[15:0]	Current TCH0 RUN   counter value$/;"	m	struct:__anon1
+cur_tch0_tcnt	.\sys\sys_dmac.h	/^	uint32_t	cur_tch0_tcnt;		\/\/ 0x20	[15:0]	Current TCH0 TRANS counter value$/;"	m	struct:__anon1
+cur_tch1_rcnt	.\sys\sys_dmac.h	/^	uint32_t	cur_tch1_rcnt;		\/\/ 0x23	[15:0]	Current TCH1 RUN   counter value$/;"	m	struct:__anon1
+cur_tch1_tcnt	.\sys\sys_dmac.h	/^	uint32_t	cur_tch1_tcnt;		\/\/ 0x22	[15:0]	Current TCH1 TRANS counter value$/;"	m	struct:__anon1
+d16	.\sys\sys_mon.h	/^	uint16_t			d16[16];		\/\/ 0x10 ~ 0x2F$/;"	m	struct:__anon5
+d32	.\sys\sys_mon.h	/^	uint32_t			d32[16];		\/\/ 0x50 ~ 0x8F$/;"	m	struct:__anon5
+dbg_mux_ctrl	.\sys\sys_iopc.h	/^	uint32_t	dbg_mux_ctrl;		\/\/ 0x14	DBG MUX control$/;"	m	struct:__anon4
+dev_add	.\sys\sys_i2cs.h	/^	uint32_t		dev_add;		\/\/ 0x13	Device Address		[7:0] DEV_ADR		R [31:16] EXT_DEV_ADR_IN$/;"	m	struct:__anon3
+dma_badr_lower_limit	.\sys\sys_i2cs.h	/^	uint32_t		dma_badr_lower_limit;	\/\/ 0x25 WRITE PACKET BADR	W [17:0] DMA_BADR_LOWER_BOUND$/;"	m	struct:__anon3
+dma_badr_offset	.\sys\sys_i2cs.h	/^	uint32_t		dma_badr_offset;	\/\/ 0x23 DMA BADR Offset		[15:0]$/;"	m	struct:__anon3
+dma_badr_upper_limit	.\sys\sys_i2cs.h	/^	uint32_t		dma_badr_upper_limit;	\/\/ 0x26 WRITE PACKET BADR	W [17:0] DMA_BADR_UPPER_BOUND$/;"	m	struct:__anon3
+dma_en	.\sys\sys_i2cs.h	/^	uint32_t		dma_en;			\/\/ 0x20 TRX Control		[5] DMA_ADD_WPKT_BADR$/;"	m	struct:__anon3
+dma_rd_en_auto_clear	.\sys\sys_i2cs.h	/^	uint32_t		dma_rd_en_auto_clear;	\/\/ 0x24 DMA_RD_EN Auto Clear Source selection$/;"	m	struct:__anon3
+dma_rd_st_badr	.\sys\sys_spim.h	/^	uint32_t		dma_rd_st_badr;	\/\/ 0x20	[17:00] DMA_RD_ST_BADR$/;"	m	struct:__anon6
+dma_rd_start_badr	.\sys\sys_i2cs.h	/^	uint32_t		dma_rd_start_badr;	\/\/ 0x21 DMA RD START BADR	W [17:0] TX_DMA_START_BADR	R [17:0] CRNT_TX_DMA_BADR$/;"	m	struct:__anon3
+dma_wr_st_badr	.\sys\sys_spim.h	/^	uint32_t		dma_wr_st_badr;	\/\/ 0x21	[17:00] DMA_WR_ST_BADR$/;"	m	struct:__anon6
+dma_wr_start_badr	.\sys\sys_i2cs.h	/^	uint32_t		dma_wr_start_badr;	\/\/ 0x22 DMA WR START BADR	W [17:0] RX_DMA_START_BADR	R [17:0] CRNT_RX_DMA_BADR$/;"	m	struct:__anon3
+dmy	.\sys\sys_dmac.h	/^	uint32_t	dmy[3];			\/\/ 0x0D ~ 0x0F $/;"	m	struct:__anon1
+dmy	.\sys\sys_spim.h	/^	uint32_t		dmy[6];		\/\/ 0x0A	 ~ 0x0F$/;"	m	struct:__anon6
+dmy0	.\sys\sys_gpio.h	/^	uint32_t	dmy0[7];		\/\/ ~$/;"	m	struct:__anon2
+dmy0	.\sys\sys_i2cs.h	/^	uint32_t		dmy0[10];		\/\/ 0x06 ~ 0x0F$/;"	m	struct:__anon3
+dmy0	.\sys\sys_iopc.h	/^	uint32_t	dmy0[10];		\/\/ ~$/;"	m	struct:__anon4
+dmy1	.\sys\sys_gpio.h	/^	uint32_t	dmy1[7];		\/\/ ~ $/;"	m	struct:__anon2
+dmy1	.\sys\sys_i2cs.h	/^	uint32_t		dmy1[11];		\/\/ 0x15 ~ 0x1F$/;"	m	struct:__anon3
+dmy1	.\sys\sys_iopc.h	/^	uint32_t	dmy1[11];		\/\/ ~ $/;"	m	struct:__anon4
+dmy1	.\sys\sys_sysc.h	/^	uint32_t		dmy1[10];	\/\/ $/;"	m	struct:__anon7
+dmy16_10	.\sys\sys_mon.h	/^	uint16_t			dmy16_10[2];		\/\/ 0x9C ~ 0x9F	$/;"	m	struct:__anon5
+dmy2	.\sys\sys_dmac.h	/^	uint32_t	dmy2[8];		\/\/ 0x18 ~ 0x1F$/;"	m	struct:__anon1
+dmy2	.\sys\sys_gpio.h	/^	uint32_t	dmy2[7];		\/\/ ~$/;"	m	struct:__anon2
+dmy2	.\sys\sys_i2cs.h	/^	uint32_t		dmy2[9];		\/\/ ~$/;"	m	struct:__anon3
+dmy2	.\sys\sys_spim.h	/^	uint32_t		dmy2[14];	\/\/ $/;"	m	struct:__anon6
+dmy3	.\sys\sys_gpio.h	/^	uint32_t	dmy3[7];		\/\/ ~$/;"	m	struct:__anon2
+dmy3	.\sys\sys_spim.h	/^	uint32_t		dmy3[14];	\/\/ $/;"	m	struct:__anon6
+dmy32_10	.\sys\sys_mon.h	/^	uint32_t			dmy32_10[2];		\/\/ 0xB8 ~ 0xBF$/;"	m	struct:__anon5
+dmy4	.\sys\sys_gpio.h	/^	uint32_t	dmy4[7];		\/\/ ~$/;"	m	struct:__anon2
+dmy5	.\sys\sys_gpio.h	/^	uint32_t	dmy5[7];		\/\/ ~$/;"	m	struct:__anon2
+dmy8_20	.\sys\sys_mon.h	/^	uint8_t				dmy8_20[15];		\/\/ 0xC1 ~ 0xCF$/;"	m	struct:__anon5
+dmy8_21	.\sys\sys_mon.h	/^	uint8_t				dmy8_21[0x100-0xD0];	\/\/ 0xD0 ~ 0xFF$/;"	m	struct:__anon5
+ef_chip_erase	.\sys\sys_spim.c	/^void	__att_noinline__	ef_chip_erase(){$/;"	f
+ef_chk_ff	.\sys\sys_spim.c	/^void	__att_noinline__	ef_chk_ff (uint32_t ef_add, uint32_t nbyte, uint8_t* buf8 ) {$/;"	f
+ef_page_program	.\sys\sys_spim.c	/^void	__att_noinline__	ef_page_program (uint32_t ef_add, uint32_t nbyte, uint8_t* buf8 ) {$/;"	f
+ef_rdid	.\sys\sys_spim.c	/^void	__att_noinline__	ef_rdid(uint8_t * rd){$/;"	f
+ef_rdsr	.\sys\sys_spim.c	/^void	__att_noinline__	ef_rdsr(uint16_t* rd){$/;"	f
+ef_read	.\sys\sys_spim.c	/^void	__att_noinline__	ef_read (uint32_t ef_add, uint32_t nbyte, uint8_t* buf8){$/;"	f
+ef_sector_erase	.\sys\sys_spim.c	/^void	__att_noinline__	ef_sector_erase(uint32_t ef_add){$/;"	f
+ef_wait_ready	.\sys\sys_spim.c	/^void	__att_noinline__	ef_wait_ready    ( ) {$/;"	f
+ef_wren	.\sys\sys_spim.c	/^void	__att_noinline__	ef_wren(){$/;"	f
+ef_wrsr	.\sys\sys_spim.c	/^void	__att_noinline__	ef_wrsr(uint16_t wd){$/;"	f
+ef_wrsr_01H_2B	.\sys\sys_spim.c	/^void	__att_noinline__	ef_wrsr_01H_2B(uint16_t wd){$/;"	f
+ef_wrsr_31H	.\sys\sys_spim.c	/^void	__att_noinline__	ef_wrsr_31H (uint16_t wd){$/;"	f
+enum_buopt_fw_autorun	.\global_variable.h	/^enum	enum_buopt_fw_autorun	{ BUOPT_FW_AUTORUN_OFF=0x0, BUOPT_FW_AUTORUN_ON=0x1 };$/;"	g
+enum_buopt_fwld_skip	.\global_variable.h	/^enum	enum_buopt_fwld_skip	{ BUOPT_FWLD_SKIP_OFF =0x0, BUOPT_FWLD_SKIP_ON =0x1 };$/;"	g
+enum_hintn_assert	.\global_variable.h	/^enum	enum_hintn_assert	{ MODE_HINTN_NOCHANGE_AFTER_HCMD = 0,  MODE_HINTN_ASSERT_AFTER_HCMD = 1 };$/;"	g
+enum_mode_hintn	.\global_variable.h	/^enum	enum_mode_hintn		{ MODE_HINTN_OD = 0, MODE_HINTN_PP = 1 };$/;"	g
+enum_opt_spim_rd	.\global_variable.h	/^enum	enum_opt_spim_rd	{ OPT_SPIM_RD_SINGLE = 0x0, OPT_SPIM_RD_DUAL = 0x1, OPT_SPIM_RD_QUAD = 0x2 };$/;"	g
+enum_opt_spim_sclk	.\global_variable.h	/^enum	enum_opt_spim_sclk	{ OPT_SPIM_SCLK_SYS_DIV16 = 0x0, OPT_SPIM_SCLK_SYS_DIV8 = 0x1, OPT_SPIM_SCLK_SYS_DIV4 = 0x2, OPT_SPIM_SCLK_SYS_DIV2 = 0x3 };$/;"	g
+enum_res_ret	.\global_variable.h	/^enum	enum_res_ret		{ RES_OK=0x0, RES_FAIL=0x1 };$/;"	g
+flow_ctrl	.\sys\sys_dmac.h	/^	uint32_t	flow_ctrl;		\/\/ 0x06 [3:0] RCHx_TCH0_EN,  [7:4] RCHx_TCH1_EN$/;"	m	struct:__anon1
+freq_ohf	.\global_variable.h	/^	uint32_t			freq_ohf;$/;"	m	struct:struct_gss
+func_reset	.\sys\sys_mon.h	/^	uint8_t				func_reset;		\/\/ 0xC0$/;"	m	struct:__anon5
+get_diff_3000_31b	.\sys\sys_define.h	75;"	d
+get_diff_3016_15b	.\sys\sys_define.h	76;"	d
+get_diff_3101_31b	.\sys\sys_define.h	74;"	d
+get_haux	.\global_variable.h	36;"	d
+get_htst	.\global_variable.h	33;"	d
+get_mem	.\sys\sys_define.h	32;"	d
+gpi_a	.\sys\sys_gpio.h	/^	uint32_t	gpi_a;			\/\/ 0x10 [7:0]  PAD_GPI_A$/;"	m	struct:__anon2
+gpi_a_pos_wu_sel	.\sys\sys_gpio.h	/^	uint32_t	gpi_a_pos_wu_sel;	\/\/ 0x06$/;"	m	struct:__anon2
+gpi_b	.\sys\sys_gpio.h	/^	uint32_t	gpi_b;			\/\/ 0x11 [15:0] PAD_GPI_B$/;"	m	struct:__anon2
+gpi_b_neg_wu_sel	.\sys\sys_gpio.h	/^	uint32_t	gpi_b_neg_wu_sel;	\/\/ 0x07$/;"	m	struct:__anon2
+gpi_c	.\sys\sys_gpio.h	/^	uint32_t	gpi_c;			\/\/ 0x12 [15:0] GPI_C$/;"	m	struct:__anon2
+gpi_d	.\sys\sys_gpio.h	/^	uint32_t	gpi_d;			\/\/ 0x13 [15:0] GPI_D$/;"	m	struct:__anon2
+gpi_e	.\sys\sys_gpio.h	/^	uint32_t	gpi_e;			\/\/ 0x14 [15:0] GPI_E$/;"	m	struct:__anon2
+gpi_f	.\sys\sys_gpio.h	/^	uint32_t	gpi_f;			\/\/ 0x15 [15:0] GPI_F$/;"	m	struct:__anon2
+gpi_g	.\sys\sys_gpio.h	/^	uint32_t	gpi_g;			\/\/ 0x16 [15:0] GPI_G$/;"	m	struct:__anon2
+gpi_h	.\sys\sys_gpio.h	/^	uint32_t	gpi_h;			\/\/ 0x17 [15:0] GPI_H$/;"	m	struct:__anon2
+gpi_i	.\sys\sys_gpio.h	/^	uint32_t	gpi_i;			\/\/ 0x18 [15:0] GPI_I$/;"	m	struct:__anon2
+gpo_a	.\sys\sys_gpio.h	/^	uint32_t	gpo_a;			\/\/ 0x20 [7:0]  PAD_GPO_A$/;"	m	struct:__anon2
+gpo_a_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_a_clrbit;		\/\/ 0x50$/;"	m	struct:__anon2
+gpo_a_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_a_setbit;		\/\/ 0x40$/;"	m	struct:__anon2
+gpo_b	.\sys\sys_gpio.h	/^	uint32_t	gpo_b;			\/\/ 0x21 [15:0] GPO_B$/;"	m	struct:__anon2
+gpo_b_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_b_clrbit;		\/\/ 0x51$/;"	m	struct:__anon2
+gpo_b_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_b_setbit;		\/\/ 0x41$/;"	m	struct:__anon2
+gpo_c	.\sys\sys_gpio.h	/^	uint32_t	gpo_c;			\/\/ 0x22 [15:0] GPO_C$/;"	m	struct:__anon2
+gpo_c_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_c_clrbit;		\/\/ 0x52$/;"	m	struct:__anon2
+gpo_c_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_c_setbit;		\/\/ 0x42$/;"	m	struct:__anon2
+gpo_d	.\sys\sys_gpio.h	/^	uint32_t	gpo_d;			\/\/ 0x23 [15:0] GPO_D$/;"	m	struct:__anon2
+gpo_d_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_d_clrbit;		\/\/ 0x53$/;"	m	struct:__anon2
+gpo_d_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_d_setbit;		\/\/ 0x43$/;"	m	struct:__anon2
+gpo_e	.\sys\sys_gpio.h	/^	uint32_t	gpo_e;			\/\/ 0x24 [15:0] GPO_E$/;"	m	struct:__anon2
+gpo_e_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_e_clrbit;		\/\/ 0x54$/;"	m	struct:__anon2
+gpo_e_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_e_setbit;		\/\/ 0x44$/;"	m	struct:__anon2
+gpo_f	.\sys\sys_gpio.h	/^	uint32_t	gpo_f;			\/\/ 0x25 [15:0] GPO_F$/;"	m	struct:__anon2
+gpo_f_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_f_clrbit;		\/\/ 0x55$/;"	m	struct:__anon2
+gpo_f_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_f_setbit;		\/\/ 0x45$/;"	m	struct:__anon2
+gpo_g	.\sys\sys_gpio.h	/^	uint32_t	gpo_g;			\/\/ 0x26 [15:0] GPO_G$/;"	m	struct:__anon2
+gpo_g_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_g_clrbit;		\/\/ 0x56$/;"	m	struct:__anon2
+gpo_g_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_g_setbit;		\/\/ 0x46$/;"	m	struct:__anon2
+gpo_h	.\sys\sys_gpio.h	/^	uint32_t	gpo_h;			\/\/ 0x27 [15:0] GPO_H$/;"	m	struct:__anon2
+gpo_h_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_h_clrbit;		\/\/ 0x57$/;"	m	struct:__anon2
+gpo_h_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_h_setbit;		\/\/ 0x47$/;"	m	struct:__anon2
+gpo_i	.\sys\sys_gpio.h	/^	uint32_t	gpo_i;			\/\/ 0x28 [15:0] GPO_I$/;"	m	struct:__anon2
+gpo_i_clrbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_i_clrbit;		\/\/ 0x58$/;"	m	struct:__anon2
+gpo_i_setbit	.\sys\sys_gpio.h	/^	uint32_t	gpo_i_setbit;		\/\/ 0x48$/;"	m	struct:__anon2
+gpoe_a	.\sys\sys_gpio.h	/^	uint32_t	gpoe_a;			\/\/ 0x30 [7:0]  PAD_GPOE_A$/;"	m	struct:__anon2
+gpoe_b	.\sys\sys_gpio.h	/^	uint32_t	gpoe_b;			\/\/ 0x31 [15:0] GPOE_B$/;"	m	struct:__anon2
+gpoe_c	.\sys\sys_gpio.h	/^	uint32_t	gpoe_c;			\/\/ 0x32 [15:0] GPOE_C$/;"	m	struct:__anon2
+gpoe_d	.\sys\sys_gpio.h	/^	uint32_t	gpoe_d;			\/\/ 0x33 [15:0] GPOE_D$/;"	m	struct:__anon2
+gpoe_e	.\sys\sys_gpio.h	/^	uint32_t	gpoe_e;			\/\/ 0x34 [15:0] GPOE_E$/;"	m	struct:__anon2
+gpoe_f	.\sys\sys_gpio.h	/^	uint32_t	gpoe_f;			\/\/ 0x35 [15:0] GPOE_F$/;"	m	struct:__anon2
+gpoe_g	.\sys\sys_gpio.h	/^	uint32_t	gpoe_g;			\/\/ 0x36 [15:0] GPOE_G$/;"	m	struct:__anon2
+gpoe_h	.\sys\sys_gpio.h	/^	uint32_t	gpoe_h;			\/\/ 0x37 [15:0] GPOE_H$/;"	m	struct:__anon2
+gpoe_i	.\sys\sys_gpio.h	/^	uint32_t	gpoe_i;			\/\/ 0x38 [15:0] GPOE_I$/;"	m	struct:__anon2
+gss	.\global_variable.c	/^volatile	struct	struct_gss	gss;$/;"	v	typeref:struct:struct_gss
+harg	.\global_variable.c	/^uint16_t	volatile	harg;$/;"	v
+haux	.\global_variable.c	/^uint16_t	volatile	haux;$/;"	v
+hcmd	.\global_variable.c	/^uint16_t	volatile	hcmd;$/;"	v
+hcmd_trig	.\global_variable.c	/^uint8_t		volatile	hcmd_trig;$/;"	v
+hintn_o	.\sys\sys_iopc.h	/^	uint32_t	hintn_o;		\/\/ 0x10	HINTN O  control $/;"	m	struct:__anon4
+hintn_oe	.\sys\sys_iopc.h	/^	uint32_t	hintn_oe;		\/\/ 0x11 HINTN OE control$/;"	m	struct:__anon4
+hrdp16	.\global_variable.c	/^uint16_t *	volatile	hrdp16;		$/;"	v
+hrdp16_arg	.\global_variable.c	/^uint16_t *	volatile	hrdp16_arg;		$/;"	v
+hrdp32	.\global_variable.c	/^uint32_t *	volatile	hrdp32;		$/;"	v
+hrdp32_arg	.\global_variable.c	/^uint32_t *	volatile	hrdp32_arg;		$/;"	v
+hrdp8	.\global_variable.c	/^uint8_t  *	volatile	hrdp8;		\/\/ host read data port$/;"	v
+hrdp8_arg	.\global_variable.c	/^uint8_t  *	volatile	hrdp8_arg;	\/\/ host read data port, argument$/;"	v
+htst	.\global_variable.c	/^uint16_t	volatile	htst;$/;"	v
+hwdp16	.\global_variable.c	/^uint16_t *	volatile	hwdp16;		$/;"	v
+hwdp16_arg	.\global_variable.c	/^uint16_t *	volatile	hwdp16_arg;		$/;"	v
+hwdp32	.\global_variable.c	/^uint32_t *	volatile	hwdp32;		$/;"	v
+hwdp32_arg	.\global_variable.c	/^uint32_t *	volatile	hwdp32_arg;		$/;"	v
+hwdp8	.\global_variable.c	/^uint8_t  *	volatile	hwdp8;		\/\/ host write data port$/;"	v
+hwdp8_arg	.\global_variable.c	/^uint8_t  *	volatile	hwdp8_arg;	\/\/ host write data port, argument$/;"	v
+int_byte_dly	.\sys\sys_spim.h	/^	uint32_t		int_byte_dly;	\/\/ 0x10	[15:00] BYTE_DELAY$/;"	m	struct:__anon6
+int_mrs	.\sys\sys_dmac.h	/^	uint32_t	int_mrs;		\/\/ 0x02	[15:0]	Mirrored Interrupt Source : Writing '1' to 'nth' bit will clear 'nth' bit$/;"	m	struct:__anon1
+int_mrs	.\sys\sys_gpio.h	/^	uint32_t	int_mrs;		\/\/ 0x02	$/;"	m	struct:__anon2
+int_mrs	.\sys\sys_i2cs.h	/^	uint32_t		int_mrs;        	\/\/ 0x02	Interrupt Mirror$/;"	m	struct:__anon3
+int_mrs	.\sys\sys_iopc.h	/^	uint32_t	int_mrs;		\/\/ 0x02	Mirrored Interrupt Source$/;"	m	struct:__anon4
+int_mrs	.\sys\sys_spim.h	/^	uint32_t		int_mrs;        \/\/ 0x02	[15:0]	Mirrored Interrupt Source : Writing '1' to 'nth' bit will clear 'nth' bit$/;"	m	struct:__anon6
+int_mrs	.\sys\sys_sysc.h	/^	uint32_t		int_mrs;        \/\/ 0x02$/;"	m	struct:__anon7
+int_msk	.\sys\sys_dmac.h	/^	uint32_t	int_msk;		\/\/ 0x00	[15:0]	Interrupt Mask$/;"	m	struct:__anon1
+int_msk	.\sys\sys_gpio.h	/^	uint32_t	int_msk;		\/\/ 0x00	$/;"	m	struct:__anon2
+int_msk	.\sys\sys_i2cs.h	/^	uint32_t		int_msk;		\/\/ 0x00	Interrupt Mask		                        [7] RX_EXECUTED		[3] GENERAL_CALL_DET$/;"	m	struct:__anon3
+int_msk	.\sys\sys_iopc.h	/^	uint32_t	int_msk;		\/\/ 0x00	Interrupt Mask$/;"	m	struct:__anon4
+int_msk	.\sys\sys_spim.h	/^	uint32_t		int_msk;	\/\/ 0x00	[15:0]	Interrupt Mask$/;"	m	struct:__anon6
+int_msk	.\sys\sys_sysc.h	/^	uint32_t		int_msk;	\/\/ 0x00$/;"	m	struct:__anon7
+int_pkt_dly	.\sys\sys_spim.h	/^	uint32_t		int_pkt_dly;	\/\/ 0x11	[15:00] PKT_DELAY$/;"	m	struct:__anon6
+int_src	.\sys\sys_dmac.h	/^	uint32_t	int_src;		\/\/ 0x01	[15:0]	Interrupt Source$/;"	m	struct:__anon1
+int_src	.\sys\sys_gpio.h	/^	uint32_t	int_src;		\/\/ 0x01	$/;"	m	struct:__anon2
+int_src	.\sys\sys_i2cs.h	/^	uint32_t		int_src;        	\/\/ 0x01	Interrupt Source$/;"	m	struct:__anon3
+int_src	.\sys\sys_iopc.h	/^	uint32_t	int_src;		\/\/ 0x01	Interrupt Source$/;"	m	struct:__anon4
+int_src	.\sys\sys_spim.h	/^	uint32_t		int_src;        \/\/ 0x01	[15:0]	Interrupt Source	$/;"	m	struct:__anon6
+int_src	.\sys\sys_sysc.h	/^	uint32_t		int_src;        \/\/ 0x01$/;"	m	struct:__anon7
+int_srv_i2cs	.\sys\sys_i2cs.c	/^__att_noinline__	void	int_srv_i2cs ( ) {$/;"	f
+io_drv_strength	.\sys\sys_iopc.h	/^	uint32_t	io_drv_strength;	\/\/ 0x12 Driving Strength$/;"	m	struct:__anon4
+io_mux_ctrl	.\sys\sys_iopc.h	/^	uint32_t	io_mux_ctrl;		\/\/ 0x13	IO  MUX control$/;"	m	struct:__anon4
+jump_to_app_core	.\main_bios.c	/^__att_noinline__	void	jump_to_app_core ( uint32_t target_address ) {$/;"	f
+jump_to_app_core	.\sys\sys_core.c	/^void	jump_to_app_core ( uint32_t target_address ) {$/;"	f
+jump_to_fw	.\sys\sys_core.c	/^void	__att_noinline__	jump_to_fw ( uint32_t badd_tgt_fw ) {$/;"	f
+led_delay	.\UTIL\crs32v_sys_util.c	/^void	led_delay()$/;"	f
+m16	.\sys\sys_mon.h	/^	uint16_t			m16;			\/\/ 0x92$/;"	m	struct:__anon5
+m32	.\sys\sys_mon.h	/^	uint32_t			m32;			\/\/ 0xA4	$/;"	m	struct:__anon5
+macro_nop_x1	.\sys\sys_define.h	57;"	d
+macro_nop_x1024	.\sys\sys_define.h	67;"	d
+macro_nop_x128	.\sys\sys_define.h	64;"	d
+macro_nop_x16	.\sys\sys_define.h	61;"	d
+macro_nop_x2	.\sys\sys_define.h	58;"	d
+macro_nop_x2048	.\sys\sys_define.h	68;"	d
+macro_nop_x256	.\sys\sys_define.h	65;"	d
+macro_nop_x32	.\sys\sys_define.h	62;"	d
+macro_nop_x4	.\sys\sys_define.h	59;"	d
+macro_nop_x512	.\sys\sys_define.h	66;"	d
+macro_nop_x64	.\sys\sys_define.h	63;"	d
+macro_nop_x8	.\sys\sys_define.h	60;"	d
+main	.\main.c	/^int	main() {$/;"	f
+main_bios	.\main_bios.c	/^__att_noinline__	void	main_bios ( ) {$/;"	f
+mcintclear	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	77;"	d
+mcintstatus	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	78;"	d
+mdm_ebadr	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	74;"	d
+mdm_sbadr	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	73;"	d
+mem16_fwld_tgt	.\global_variable.c	/^uint16_t *	volatile	mem16_fwld_tgt;		$/;"	v
+mem32_fwld_tgt	.\global_variable.c	/^uint32_t *	volatile	mem32_fwld_tgt;		$/;"	v
+mem8_fwld_tgt	.\global_variable.c	/^uint8_t  *	volatile	mem8_fwld_tgt;	\/\/ FWLD Target Address$/;"	v
+mficfg	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	84;"	d
+mfive	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	86;"	d
+mftvec_00	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	89;"	d
+mftvec_01	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	90;"	d
+mftvec_02	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	91;"	d
+mftvec_03	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	92;"	d
+mftvec_04	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	93;"	d
+mftvec_05	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	94;"	d
+mftvec_06	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	95;"	d
+mftvec_07	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	96;"	d
+mftvec_08	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	97;"	d
+mftvec_09	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	98;"	d
+mftvec_10	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	99;"	d
+mftvec_11	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	100;"	d
+mftvec_12	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	101;"	d
+mftvec_13	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	102;"	d
+mftvec_14	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	103;"	d
+mftvec_15	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	104;"	d
+mode_hintn	.\global_variable.h	/^	enum	enum_mode_hintn		mode_hintn;$/;"	m	struct:struct_gss	typeref:enum:struct_gss::enum_mode_hintn
+mode_hintn_assert	.\global_variable.h	/^	enum	enum_hintn_assert	mode_hintn_assert;$/;"	m	struct:struct_gss	typeref:enum:struct_gss::enum_hintn_assert
+msg	.\sys\sys_mon.h	/^	char				msg[256];		\/\/ 0x100 ~ 0x1FF$/;"	m	struct:__anon5
+mstack_ctrl	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	70;"	d
+mstack_ebadr	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	72;"	d
+mstack_sbadr	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	71;"	d
+mswint	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	79;"	d
+mtime	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	83;"	d
+mtimecmp	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	82;"	d
+mtimectrl	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	80;"	d
+mtimepres	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	81;"	d
+mtsf	.\CRT0_LD_TRAP_CSR\CSR\crs32v_csr.h	85;"	d
+n16	.\sys\sys_mon.h	/^	uint16_t			n16;			\/\/ 0x90$/;"	m	struct:__anon5
+n32	.\sys\sys_mon.h	/^	uint32_t			n32;			\/\/ 0xA0	$/;"	m	struct:__anon5
+nerr16_l	.\sys\sys_mon.h	/^	uint16_t			nerr16_l;		\/\/ 0x98$/;"	m	struct:__anon5
+nerr16_t	.\sys\sys_mon.h	/^	uint16_t			nerr16_t;		\/\/ 0x9A$/;"	m	struct:__anon5
+nerr32_l	.\sys\sys_mon.h	/^	uint32_t			nerr32_l;		\/\/ 0xB0	$/;"	m	struct:__anon5
+nerr32_t	.\sys\sys_mon.h	/^	uint32_t			nerr32_t;		\/\/ 0xB4	$/;"	m	struct:__anon5
+opt_spim_rd	.\global_variable.h	/^	enum	enum_opt_spim_rd	opt_spim_rd;$/;"	m	struct:struct_gss	typeref:enum:struct_gss::enum_opt_spim_rd
+opt_spim_sclk	.\global_variable.h	/^	enum	enum_opt_spim_sclk	opt_spim_sclk;$/;"	m	struct:struct_gss	typeref:enum:struct_gss::enum_opt_spim_sclk
+p16	.\sys\sys_mon.h	/^	uint16_t			p16;			\/\/ 0x94$/;"	m	struct:__anon5
+p32	.\sys\sys_mon.h	/^	uint32_t			p32;			\/\/ 0xA8	$/;"	m	struct:__anon5
+phy_clock_div	.\sys\sys_i2cs.h	/^	uint32_t		phy_clock_div;		\/\/ 0x10	PHY Clock Divider	[1:0] PHY_CLK_DIV$/;"	m	struct:__anon3
+phy_scl_hold_time	.\sys\sys_i2cs.h	/^	uint32_t		phy_scl_hold_time;	\/\/ 0x12	PHY SCL Hold time	[7:0] PHY_SCL_HOLD_TIME$/;"	m	struct:__anon3
+phy_sync_ctrl	.\sys\sys_i2cs.h	/^	uint32_t		phy_sync_ctrl;		\/\/ 0x11	PHY Sync Control	[2:0] PHY_SYNC_STAGE$/;"	m	struct:__anon3
+print_hex	.\UTIL\crs32v_print.c	/^void print_hex(unsigned int val, int digits)$/;"	f
+print_str	.\UTIL\crs32v_print.c	/^void print_str(const char *p)$/;"	f
+q16	.\sys\sys_mon.h	/^	uint16_t			q16;			\/\/ 0x96$/;"	m	struct:__anon5
+q32	.\sys\sys_mon.h	/^	uint32_t			q32;			\/\/ 0xAC	$/;"	m	struct:__anon5
+rch_src_sel	.\sys\sys_dmac.h	/^	uint32_t	rch_src_sel;		\/\/ 0x07 [1:0]  RCH0 source selection [3:2]RCH1   [5:4]RCH2$/;"	m	struct:__anon1
+ro_wakeup_cause	.\sys\sys_gpio.h	/^	uint32_t	ro_wakeup_cause;	\/\/ 0x08$/;"	m	struct:__anon2
+rx_byte_count	.\sys\sys_i2cs.h	/^	uint32_t		rx_byte_count;		\/\/ 0x31 RX_BYTE_COUNT		R [15:0] RX_BYTE_COUNT$/;"	m	struct:__anon3
+sDMAC	.\sys\sys_dmac.h	150;"	d
+sGPIO	.\sys\sys_gpio.h	105;"	d
+sI2CS	.\sys\sys_i2cs.h	110;"	d
+sIOPC	.\sys\sys_iopc.h	44;"	d
+sMON	.\sys\sys_mon.h	69;"	d
+sMONCLR	.\sys\sys_mon.h	70;"	d
+sSPIM	.\sys\sys_spim.h	95;"	d
+sSYSC	.\sys\sys_sysc.h	46;"	d
+sclr	.\sys\sys_mon.h	74;"	d
+set_haux	.\global_variable.h	35;"	d
+set_hintn	.\sys\sys_iopc.c	/^__att_noinline__	void	set_hintn ( uint8_t wd ) {$/;"	f
+set_htst	.\global_variable.h	32;"	d
+set_mem	.\sys\sys_define.h	31;"	d
+smon	.\sys\sys_mon.h	73;"	d
+spim_cmdgen	.\sys\sys_spim.c	/^void	__att_noinline__	spim_cmdgen ( uint16_t vcmd, uint16_t cmd, uint16_t wargnbyte, uint32_t warg, uint32_t wnbyte, uint8_t* wbuf, uint32_t rnbyte, uint8_t* rbuf){$/;"	f
+sprintf	.\UTIL\printf.c	/^int sprintf(char *buf, const char *fmt, ...)$/;"	f
+ssn_oe	.\sys\sys_spim.h	/^	uint32_t		ssn_oe;		\/\/ 0x06	[7:0]	SSN OE$/;"	m	struct:__anon6
+ssn_sel	.\sys\sys_spim.h	/^	uint32_t		ssn_sel;	\/\/ 0x09	[7:0]	SPI slave select$/;"	m	struct:__anon6
+ssn_sel_polarity	.\sys\sys_spim.h	/^	uint32_t		ssn_sel_polarity;\/\/ 0x07	[7:0]	SSn Polarity 0:Low active, 1:High active$/;"	m	struct:__anon6
+st	.\sys\sys_dmac.h	/^	uint32_t	st;			\/\/ 0x03	control & status$/;"	m	struct:__anon1
+st	.\sys\sys_gpio.h	/^	uint32_t	st;			\/\/ 0x03	$/;"	m	struct:__anon2
+st	.\sys\sys_i2cs.h	/^	uint32_t		st;			\/\/ 0x03	Status (R)		[13: 9]	I2CS_FSM		[2] PARTIAL_BYTE_ERR$/;"	m	struct:__anon3
+st	.\sys\sys_iopc.h	/^	uint32_t	st;			\/\/ 0x03	Status$/;"	m	struct:__anon4
+st	.\sys\sys_spim.h	/^	uint32_t		st;		\/\/ 0x03	[15:0]	status$/;"	m	struct:__anon6
+st	.\sys\sys_sysc.h	/^	uint32_t		st;		\/\/ 0x03$/;"	m	struct:__anon7
+st16	.\sys\sys_mon.h	/^	uint16_t			st16[8];		\/\/ 0x00	~ 0x0F$/;"	m	struct:__anon5
+st32	.\sys\sys_mon.h	/^	uint32_t			st32[8];		\/\/ 0x30 ~ 0x4F$/;"	m	struct:__anon5
+struct_dmac	.\sys\sys_dmac.h	/^} struct_dmac;$/;"	t	typeref:struct:__anon1
+struct_gss	.\global_variable.h	/^struct	struct_gss	{$/;"	s
+struct_i2cs	.\sys\sys_i2cs.h	/^} struct_i2cs;$/;"	t	typeref:struct:__anon3
+struct_spim	.\sys\sys_spim.h	/^} struct_spim;$/;"	t	typeref:struct:__anon6
+struct_sys_gpio	.\sys\sys_gpio.h	/^} struct_sys_gpio;$/;"	t	typeref:struct:__anon2
+struct_sys_iopc	.\sys\sys_iopc.h	/^} struct_sys_iopc;$/;"	t	typeref:struct:__anon4
+struct_sys_mon	.\sys\sys_mon.h	/^}	struct_sys_mon;$/;"	t	typeref:struct:__anon5
+struct_sysc	.\sys\sys_sysc.h	/^} struct_sysc;$/;"	t	typeref:struct:__anon7
+task_schedule	.\sys\sys_spim.h	/^	uint32_t		task_schedule[16];	\/\/ 0x30	[11:00] { TID[3:0], REPEAT_COUNT[7:0] }$/;"	m	struct:__anon6
+tx_byte_count	.\sys\sys_i2cs.h	/^	uint32_t		tx_byte_count;		\/\/ 0x30 TX_BYTE_COUNT		R [15:0] TX_BYTE_COUNT$/;"	m	struct:__anon3
+uart_init	.\UTIL\crs32v_sys_util.c	/^void	uart_init()$/;"	f
+uart_tx_byte	.\UTIL\crs32v_sys_util.c	/^void	uart_tx_byte(char wdata)$/;"	f
+wakeup_dev_add	.\sys\sys_i2cs.h	/^	uint32_t		wakeup_dev_add;		\/\/ 0x14	WAKEUP Device Address	[7:0] DEV_ADR_WAKEUP$/;"	m	struct:__anon3

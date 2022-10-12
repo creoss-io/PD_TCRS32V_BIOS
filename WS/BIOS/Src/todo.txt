@@ -1,0 +1,17 @@
+
+//--------------------------------------------------------------------------------
+3. TB, I2C  delay between rw and rr
+
+//--------------------------------------------------------------------------------
+2. spim_cmdgen : do not make an internal buffer
+
+//--------------------------------------------------------------------------------
+1.
+//--	Make a general control for these
+//--	HIF = I2CS, SPIS, USBD, UART
+sDMAC.flow_ctrl
+sDMAC.rch_src_sel
+functions    sdmac_rch0_src_sel ( a )    clr and set
+
+
+

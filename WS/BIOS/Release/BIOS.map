@@ -1,0 +1,1185 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+                              ./Src/UTIL/printf.o (_ctype_)
+c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                              ./Src/UTIL/printf.o (memset)
+c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+                              ./Src/UTIL/printf.o (strnlen)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+prom             0x0000000000000000 0x0000000000010000
+drom             0x00000000810d0000 0x0000000000001000
+dram             0x0000000040001000 0x0000000000000800
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./Src/UTIL/crs32v_print.o
+LOAD ./Src/UTIL/crs32v_sys_util.o
+LOAD ./Src/UTIL/printf.o
+LOAD ./Src/LL/sys_core.o
+LOAD ./Src/LL/sys_dmac.o
+LOAD ./Src/LL/sys_gpio.o
+LOAD ./Src/LL/sys_i2cs.o
+LOAD ./Src/LL/sys_iopc.o
+LOAD ./Src/LL/sys_mon.o
+LOAD ./Src/LL/sys_spim.o
+LOAD ./Src/LL/sys_sysc.o
+LOAD ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+LOAD ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+LOAD ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+LOAD ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+LOAD ./Src/bios_bu.o
+LOAD ./Src/bios_hcmd.o
+LOAD ./Src/crs32v_int.o
+LOAD ./Src/global_variable.o
+LOAD ./Src/main.o
+LOAD ./Src/main_bios.o
+LOAD c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libgloss.a
+LOAD c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+                0x00000000400017fc                PROVIDE (_stack_start = ((ORIGIN (dram) + LENGTH (dram)) - 0x4))
+
+.vectors        0x0000000000000000       0x88
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.vectors)
+ .vectors       0x0000000000000000       0x88 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+                0x0000000000000000                _start
+                0x0000000000000004                _trap_vector_table
+
+.text           0x0000000000000088      0x3e6
+                0x0000000000000088                . = ALIGN (0x4)
+                0x0000000000000088                _stext = .
+ *(.text)
+ .text          0x0000000000000088        0x0 ./Src/UTIL/crs32v_print.o
+ .text          0x0000000000000088        0x0 ./Src/UTIL/crs32v_sys_util.o
+ .text          0x0000000000000088        0x0 ./Src/UTIL/printf.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_core.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_dmac.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_gpio.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_i2cs.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_iopc.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_mon.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_spim.o
+ .text          0x0000000000000088        0x0 ./Src/LL/sys_sysc.o
+ .text          0x0000000000000088        0x0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .text          0x0000000000000088        0x0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .text          0x0000000000000088        0x0 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .text          0x0000000000000088      0x32e ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+                0x00000000000000fc                crt_trap_irq_00
+                0x0000000000000112                crt_trap_irq_01
+                0x0000000000000128                crt_trap_irq_02
+                0x000000000000013e                crt_trap_irq_03
+                0x0000000000000154                crt_trap_irq_04
+                0x000000000000016a                crt_trap_irq_05
+                0x0000000000000180                crt_trap_irq_06
+                0x0000000000000196                crt_trap_irq_07
+                0x00000000000001ac                crt_trap_irq_08
+                0x00000000000001c2                crt_trap_irq_09
+                0x00000000000001d8                crt_trap_irq_10
+                0x00000000000001ee                crt_trap_irq_11
+                0x0000000000000204                crt_trap_irq_12
+                0x000000000000021a                crt_trap_irq_13
+                0x0000000000000230                crt_trap_irq_14
+                0x0000000000000246                crt_trap_irq_15
+                0x00000000000002dc                _fini
+                0x00000000000002dc                _init
+                0x00000000000002de                _boot_init
+ .text          0x00000000000003b6        0x0 ./Src/bios_bu.o
+ .text          0x00000000000003b6        0x0 ./Src/bios_hcmd.o
+ .text          0x00000000000003b6        0x0 ./Src/crs32v_int.o
+ .text          0x00000000000003b6        0x0 ./Src/global_variable.o
+ .text          0x00000000000003b6        0x0 ./Src/main.o
+ .text          0x00000000000003b6        0x0 ./Src/main_bios.o
+ .text          0x00000000000003b6        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+ .text          0x00000000000003b6       0xa8 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                0x00000000000003b6                memset
+ .text          0x000000000000045e        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+                0x000000000000045e                _etext = .
+                0x000000000000045e                __CTOR_LIST__ = .
+                0x000000000000045e        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(.ctors)
+                0x0000000000000462        0x4 LONG 0x0
+                0x0000000000000466                __CTOR_END__ = .
+                0x0000000000000466                __DTOR_LIST__ = .
+                0x0000000000000466        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(.dtors)
+                0x000000000000046a        0x4 LONG 0x0
+                0x000000000000046e                __DTOR_END__ = .
+ *(.lit)
+ *(.shdata)
+                0x000000000000046e                _endtext = .
+
+.text.print_str
+                0x000000000000046e       0x5c
+ .text.print_str
+                0x000000000000046e       0x5c ./Src/UTIL/crs32v_print.o
+                0x000000000000046e                print_str
+
+.text.print_hex
+                0x00000000000004ca       0x3c
+ .text.print_hex
+                0x00000000000004ca       0x3c ./Src/UTIL/crs32v_print.o
+                0x00000000000004ca                print_hex
+
+.text.basic_delay
+                0x0000000000000506        0xe
+ .text.basic_delay
+                0x0000000000000506        0xe ./Src/UTIL/crs32v_sys_util.o
+                0x0000000000000506                basic_delay
+
+.text.led_delay
+                0x0000000000000514       0x10
+ .text.led_delay
+                0x0000000000000514       0x10 ./Src/UTIL/crs32v_sys_util.o
+                0x0000000000000514                led_delay
+
+.text.uart_init
+                0x0000000000000524       0x1a
+ .text.uart_init
+                0x0000000000000524       0x1a ./Src/UTIL/crs32v_sys_util.o
+                0x0000000000000524                uart_init
+
+.text.uart_tx_byte
+                0x000000000000053e       0x10
+ .text.uart_tx_byte
+                0x000000000000053e       0x10 ./Src/UTIL/crs32v_sys_util.o
+                0x000000000000053e                uart_tx_byte
+
+.text.crs32v_skip_atoi
+                0x000000000000054e       0x36
+ .text.crs32v_skip_atoi
+                0x000000000000054e       0x36 ./Src/UTIL/printf.o
+
+.text.crs32v_number
+                0x0000000000000584      0x1a8
+ .text.crs32v_number
+                0x0000000000000584      0x1a8 ./Src/UTIL/printf.o
+
+.text.crs32v_vsprintf
+                0x000000000000072c      0x314
+ .text.crs32v_vsprintf
+                0x000000000000072c      0x314 ./Src/UTIL/printf.o
+                0x000000000000072c                crs32v_vsprintf
+
+.text.sprintf   0x0000000000000a40       0x1c
+ .text.sprintf  0x0000000000000a40       0x1c ./Src/UTIL/printf.o
+                0x0000000000000a40                sprintf
+
+.text.crs32v_printf
+                0x0000000000000a5c       0x5c
+ .text.crs32v_printf
+                0x0000000000000a5c       0x5c ./Src/UTIL/printf.o
+                0x0000000000000a5c                crs32v_printf
+
+.text.jump_to_app_core
+                0x0000000000000ab8        0xa
+ .text.jump_to_app_core
+                0x0000000000000ab8        0xa ./Src/LL/sys_core.o
+                0x0000000000000ab8                jump_to_app_core
+
+.text.jump_to_fw
+                0x0000000000000ac2        0x2
+ .text.jump_to_fw
+                0x0000000000000ac2        0x2 ./Src/LL/sys_core.o
+                0x0000000000000ac2                jump_to_fw
+
+.text.int_srv_i2cs
+                0x0000000000000ac4      0x1b6
+ .text.int_srv_i2cs
+                0x0000000000000ac4      0x1b6 ./Src/LL/sys_i2cs.o
+                0x0000000000000ac4                int_srv_i2cs
+
+.text.set_hintn
+                0x0000000000000c7a       0x32
+ .text.set_hintn
+                0x0000000000000c7a       0x32 ./Src/LL/sys_iopc.o
+                0x0000000000000c7a                set_hintn
+
+.text.spim_cmdgen
+                0x0000000000000cac      0x6fc
+ .text.spim_cmdgen
+                0x0000000000000cac      0x6fc ./Src/LL/sys_spim.o
+                0x0000000000000cac                spim_cmdgen
+
+.text.ef_rdid   0x00000000000013a8       0x14
+ .text.ef_rdid  0x00000000000013a8       0x14 ./Src/LL/sys_spim.o
+                0x00000000000013a8                ef_rdid
+
+.text.ef_rdsr   0x00000000000013bc       0x12
+ .text.ef_rdsr  0x00000000000013bc       0x12 ./Src/LL/sys_spim.o
+                0x00000000000013bc                ef_rdsr
+
+.text.ef_wrsr   0x00000000000013ce       0x12
+ .text.ef_wrsr  0x00000000000013ce       0x12 ./Src/LL/sys_spim.o
+                0x00000000000013ce                ef_wrsr
+
+.text.ef_wrsr_01H_2B
+                0x00000000000013e0       0x12
+ .text.ef_wrsr_01H_2B
+                0x00000000000013e0       0x12 ./Src/LL/sys_spim.o
+                0x00000000000013e0                ef_wrsr_01H_2B
+
+.text.ef_wrsr_31H
+                0x00000000000013f2       0x14
+ .text.ef_wrsr_31H
+                0x00000000000013f2       0x14 ./Src/LL/sys_spim.o
+                0x00000000000013f2                ef_wrsr_31H
+
+.text.ef_wren   0x0000000000001406       0x12
+ .text.ef_wren  0x0000000000001406       0x12 ./Src/LL/sys_spim.o
+                0x0000000000001406                ef_wren
+
+.text.ef_wait_ready
+                0x0000000000001418        0x2
+ .text.ef_wait_ready
+                0x0000000000001418        0x2 ./Src/LL/sys_spim.o
+                0x0000000000001418                ef_wait_ready
+
+.text.ef_chip_erase
+                0x000000000000141a       0x14
+ .text.ef_chip_erase
+                0x000000000000141a       0x14 ./Src/LL/sys_spim.o
+                0x000000000000141a                ef_chip_erase
+
+.text.ef_sector_erase
+                0x000000000000142e       0x14
+ .text.ef_sector_erase
+                0x000000000000142e       0x14 ./Src/LL/sys_spim.o
+                0x000000000000142e                ef_sector_erase
+
+.text.ef_page_program
+                0x0000000000001442       0x12
+ .text.ef_page_program
+                0x0000000000001442       0x12 ./Src/LL/sys_spim.o
+                0x0000000000001442                ef_page_program
+
+.text.ef_read   0x0000000000001454       0x12
+ .text.ef_read  0x0000000000001454       0x12 ./Src/LL/sys_spim.o
+                0x0000000000001454                ef_read
+
+.text.ef_chk_ff
+                0x0000000000001466       0x48
+ .text.ef_chk_ff
+                0x0000000000001466       0x48 ./Src/LL/sys_spim.o
+                0x0000000000001466                ef_chk_ff
+
+.text._trap_handler_exc
+                0x00000000000014ae      0x19e
+ .text._trap_handler_exc
+                0x00000000000014ae      0x19e ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+                0x00000000000014ae                _trap_handler_exc
+
+.text._trap_handler_msi
+                0x000000000000164c       0x1a
+ .text._trap_handler_msi
+                0x000000000000164c       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x000000000000164c                _trap_handler_msi
+
+.text._trap_handler_mti
+                0x0000000000001666       0x1a
+ .text._trap_handler_mti
+                0x0000000000001666       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001666                _trap_handler_mti
+
+.text._trap_handler_mei
+                0x0000000000001680       0x1a
+ .text._trap_handler_mei
+                0x0000000000001680       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001680                _trap_handler_mei
+
+.text._trap_handler_irq_00
+                0x000000000000169a       0x1a
+ .text._trap_handler_irq_00
+                0x000000000000169a       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x000000000000169a                _trap_handler_irq_00
+
+.text._trap_handler_irq_01
+                0x00000000000016b4       0x1a
+ .text._trap_handler_irq_01
+                0x00000000000016b4       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x00000000000016b4                _trap_handler_irq_01
+
+.text._trap_handler_irq_02
+                0x00000000000016ce       0x1a
+ .text._trap_handler_irq_02
+                0x00000000000016ce       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x00000000000016ce                _trap_handler_irq_02
+
+.text._trap_handler_irq_03
+                0x00000000000016e8       0x1a
+ .text._trap_handler_irq_03
+                0x00000000000016e8       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x00000000000016e8                _trap_handler_irq_03
+
+.text._trap_handler_irq_04
+                0x0000000000001702       0x1a
+ .text._trap_handler_irq_04
+                0x0000000000001702       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001702                _trap_handler_irq_04
+
+.text._trap_handler_irq_05
+                0x000000000000171c       0x1a
+ .text._trap_handler_irq_05
+                0x000000000000171c       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x000000000000171c                _trap_handler_irq_05
+
+.text._trap_handler_irq_06
+                0x0000000000001736       0x1a
+ .text._trap_handler_irq_06
+                0x0000000000001736       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001736                _trap_handler_irq_06
+
+.text._trap_handler_irq_07
+                0x0000000000001750       0x1a
+ .text._trap_handler_irq_07
+                0x0000000000001750       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001750                _trap_handler_irq_07
+
+.text._trap_handler_irq_08
+                0x000000000000176a       0x1a
+ .text._trap_handler_irq_08
+                0x000000000000176a       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x000000000000176a                _trap_handler_irq_08
+
+.text._trap_handler_irq_09
+                0x0000000000001784       0x1a
+ .text._trap_handler_irq_09
+                0x0000000000001784       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001784                _trap_handler_irq_09
+
+.text._trap_handler_irq_10
+                0x000000000000179e       0x1a
+ .text._trap_handler_irq_10
+                0x000000000000179e       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x000000000000179e                _trap_handler_irq_10
+
+.text._trap_handler_irq_11
+                0x00000000000017b8       0x1a
+ .text._trap_handler_irq_11
+                0x00000000000017b8       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x00000000000017b8                _trap_handler_irq_11
+
+.text._trap_handler_irq_12
+                0x00000000000017d2       0x1a
+ .text._trap_handler_irq_12
+                0x00000000000017d2       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x00000000000017d2                _trap_handler_irq_12
+
+.text._trap_handler_irq_13
+                0x00000000000017ec       0x1a
+ .text._trap_handler_irq_13
+                0x00000000000017ec       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x00000000000017ec                _trap_handler_irq_13
+
+.text._trap_handler_irq_14
+                0x0000000000001806       0x1a
+ .text._trap_handler_irq_14
+                0x0000000000001806       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001806                _trap_handler_irq_14
+
+.text._trap_handler_irq_15
+                0x0000000000001820       0x1a
+ .text._trap_handler_irq_15
+                0x0000000000001820       0x1a ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                0x0000000000001820                _trap_handler_irq_15
+
+.text.csr_check
+                0x000000000000183a      0x100
+ .text.csr_check
+                0x000000000000183a      0x100 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                0x000000000000183a                csr_check
+
+.text.csr_int_init_fast_int_vector
+                0x000000000000193a       0x86
+ .text.csr_int_init_fast_int_vector
+                0x000000000000193a       0x86 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                0x000000000000193a                csr_int_init_fast_int_vector
+
+.text.csr_exc_init_stack_check
+                0x00000000000019c0       0x98
+ .text.csr_exc_init_stack_check
+                0x00000000000019c0       0x98 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                0x00000000000019c0                csr_exc_init_stack_check
+
+.text.bu_fwld   0x0000000000001a58      0x298
+ .text.bu_fwld  0x0000000000001a58      0x298 ./Src/bios_bu.o
+                0x0000000000001a58                bu_fwld
+
+.text.BIOS_HCMD_CLEAR_INT
+                0x0000000000001cf0       0xaa
+ .text.BIOS_HCMD_CLEAR_INT
+                0x0000000000001cf0       0xaa ./Src/bios_hcmd.o
+                0x0000000000001cf0                BIOS_HCMD_CLEAR_INT
+
+.text.BIOS_HCMD_RUN_CPU
+                0x0000000000001d9a      0x13a
+ .text.BIOS_HCMD_RUN_CPU
+                0x0000000000001d9a      0x13a ./Src/bios_hcmd.o
+                0x0000000000001d9a                BIOS_HCMD_RUN_CPU
+
+.text.BIOS_HCMD_ACC_REG
+                0x0000000000001ed4      0x1d4
+ .text.BIOS_HCMD_ACC_REG
+                0x0000000000001ed4      0x1d4 ./Src/bios_hcmd.o
+                0x0000000000001ed4                BIOS_HCMD_ACC_REG
+
+.text.BIOS_HCMD_SE
+                0x00000000000020a8       0x54
+ .text.BIOS_HCMD_SE
+                0x00000000000020a8       0x54 ./Src/bios_hcmd.o
+                0x00000000000020a8                BIOS_HCMD_SE
+
+.text.BIOS_HCMD_EVAL
+                0x00000000000020fc       0xdc
+ .text.BIOS_HCMD_EVAL
+                0x00000000000020fc       0xdc ./Src/bios_hcmd.o
+                0x00000000000020fc                BIOS_HCMD_EVAL
+
+.text.crs32v_int_check
+                0x00000000000021d8        0x2
+ .text.crs32v_int_check
+                0x00000000000021d8        0x2 ./Src/crs32v_int.o
+                0x00000000000021d8                crs32v_int_check
+
+.text.crs32v_int_check_mtsf
+                0x00000000000021da        0x6
+ .text.crs32v_int_check_mtsf
+                0x00000000000021da        0x6 ./Src/crs32v_int.o
+                0x00000000000021da                crs32v_int_check_mtsf
+
+.text.crs32v_trap_msi
+                0x00000000000021e0        0x2
+ .text.crs32v_trap_msi
+                0x00000000000021e0        0x2 ./Src/crs32v_int.o
+                0x00000000000021e0                crs32v_trap_msi
+
+.text.crs32v_trap_mti
+                0x00000000000021e2        0x2
+ .text.crs32v_trap_mti
+                0x00000000000021e2        0x2 ./Src/crs32v_int.o
+                0x00000000000021e2                crs32v_trap_mti
+
+.text.crs32v_trap_mei
+                0x00000000000021e4       0x22
+ .text.crs32v_trap_mei
+                0x00000000000021e4       0x22 ./Src/crs32v_int.o
+                0x00000000000021e4                crs32v_trap_mei
+
+.text.crs32v_trap_mfi_00
+                0x0000000000002206        0xe
+ .text.crs32v_trap_mfi_00
+                0x0000000000002206        0xe ./Src/crs32v_int.o
+                0x0000000000002206                crs32v_trap_mfi_00
+
+.text.crs32v_trap_mfi_01
+                0x0000000000002214        0xe
+ .text.crs32v_trap_mfi_01
+                0x0000000000002214        0xe ./Src/crs32v_int.o
+                0x0000000000002214                crs32v_trap_mfi_01
+
+.text.crs32v_trap_mfi_02
+                0x0000000000002222        0xe
+ .text.crs32v_trap_mfi_02
+                0x0000000000002222        0xe ./Src/crs32v_int.o
+                0x0000000000002222                crs32v_trap_mfi_02
+
+.text.crs32v_trap_mfi_03
+                0x0000000000002230        0xe
+ .text.crs32v_trap_mfi_03
+                0x0000000000002230        0xe ./Src/crs32v_int.o
+                0x0000000000002230                crs32v_trap_mfi_03
+
+.text.crs32v_trap_mfi_04
+                0x000000000000223e        0xe
+ .text.crs32v_trap_mfi_04
+                0x000000000000223e        0xe ./Src/crs32v_int.o
+                0x000000000000223e                crs32v_trap_mfi_04
+
+.text.crs32v_trap_mfi_05
+                0x000000000000224c       0x10
+ .text.crs32v_trap_mfi_05
+                0x000000000000224c       0x10 ./Src/crs32v_int.o
+                0x000000000000224c                crs32v_trap_mfi_05
+
+.text.crs32v_trap_mfi_06
+                0x000000000000225c        0xe
+ .text.crs32v_trap_mfi_06
+                0x000000000000225c        0xe ./Src/crs32v_int.o
+                0x000000000000225c                crs32v_trap_mfi_06
+
+.text.crs32v_trap_mfi_07
+                0x000000000000226a       0x10
+ .text.crs32v_trap_mfi_07
+                0x000000000000226a       0x10 ./Src/crs32v_int.o
+                0x000000000000226a                crs32v_trap_mfi_07
+
+.text.crs32v_trap_mfi_08
+                0x000000000000227a       0x10
+ .text.crs32v_trap_mfi_08
+                0x000000000000227a       0x10 ./Src/crs32v_int.o
+                0x000000000000227a                crs32v_trap_mfi_08
+
+.text.crs32v_trap_mfi_09
+                0x000000000000228a       0x10
+ .text.crs32v_trap_mfi_09
+                0x000000000000228a       0x10 ./Src/crs32v_int.o
+                0x000000000000228a                crs32v_trap_mfi_09
+
+.text.crs32v_trap_mfi_10
+                0x000000000000229a       0x10
+ .text.crs32v_trap_mfi_10
+                0x000000000000229a       0x10 ./Src/crs32v_int.o
+                0x000000000000229a                crs32v_trap_mfi_10
+
+.text.crs32v_trap_mfi_11
+                0x00000000000022aa       0x14
+ .text.crs32v_trap_mfi_11
+                0x00000000000022aa       0x14 ./Src/crs32v_int.o
+                0x00000000000022aa                crs32v_trap_mfi_11
+
+.text.crs32v_trap_mfi_12
+                0x00000000000022be        0xe
+ .text.crs32v_trap_mfi_12
+                0x00000000000022be        0xe ./Src/crs32v_int.o
+                0x00000000000022be                crs32v_trap_mfi_12
+
+.text.crs32v_trap_mfi_13
+                0x00000000000022cc        0xe
+ .text.crs32v_trap_mfi_13
+                0x00000000000022cc        0xe ./Src/crs32v_int.o
+                0x00000000000022cc                crs32v_trap_mfi_13
+
+.text.crs32v_trap_mfi_14
+                0x00000000000022da        0xe
+ .text.crs32v_trap_mfi_14
+                0x00000000000022da        0xe ./Src/crs32v_int.o
+                0x00000000000022da                crs32v_trap_mfi_14
+
+.text.crs32v_trap_mfi_15
+                0x00000000000022e8        0xe
+ .text.crs32v_trap_mfi_15
+                0x00000000000022e8        0xe ./Src/crs32v_int.o
+                0x00000000000022e8                crs32v_trap_mfi_15
+
+.text.startup.main
+                0x00000000000022f6       0xe6
+ .text.startup.main
+                0x00000000000022f6       0xe6 ./Src/main.o
+                0x00000000000022f6                main
+
+.text.main_bios
+                0x00000000000023dc      0x2b8
+ .text.main_bios
+                0x00000000000023dc      0x2b8 ./Src/main_bios.o
+                0x00000000000023dc                main_bios
+
+.text.strnlen   0x0000000000002694       0x18
+ .text.strnlen  0x0000000000002694       0x18 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+                0x0000000000002694                strnlen
+
+.rodata         0x00000000810d0000      0x459
+                0x00000000810d0000                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x00000000810d0000       0x4d ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ *(.rodata.*)
+ *fill*         0x00000000810d004d        0x3 
+ .rodata.print_hex.str1.4
+                0x00000000810d0050       0x11 ./Src/UTIL/crs32v_print.o
+ *fill*         0x00000000810d0061        0x3 
+ .rodata.crs32v_vsprintf
+                0x00000000810d0064       0x58 ./Src/UTIL/printf.o
+ .rodata.digits.0
+                0x00000000810d00bc       0x10 ./Src/UTIL/printf.o
+ .rodata._trap_handler_exc.str1.4
+                0x00000000810d00cc      0x1d0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+                                        0x1d4 (size before relaxing)
+ .rodata.csr_check.str1.4
+                0x00000000810d029c       0x7d ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                                         0x81 (size before relaxing)
+ *fill*         0x00000000810d0319        0x3 
+ .rodata.csr_exc_init_stack_check.str1.4
+                0x00000000810d031c       0x3c ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .rodata._ctype_
+                0x00000000810d0358      0x101 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+                0x00000000810d0358                _ctype_
+
+.rela.dyn       0x00000000810d045c        0x0
+ .rela.text     0x00000000810d045c        0x0 ./Src/UTIL/crs32v_print.o
+
+.data           0x00000000810d0459        0x0
+ .data          0x00000000810d0459        0x0 ./Src/UTIL/crs32v_print.o
+ .data          0x00000000810d0459        0x0 ./Src/UTIL/crs32v_sys_util.o
+ .data          0x00000000810d0459        0x0 ./Src/UTIL/printf.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_core.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_dmac.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_gpio.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_i2cs.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_iopc.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_mon.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_spim.o
+ .data          0x00000000810d0459        0x0 ./Src/LL/sys_sysc.o
+ .data          0x00000000810d0459        0x0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .data          0x00000000810d0459        0x0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .data          0x00000000810d0459        0x0 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .data          0x00000000810d0459        0x0 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .data          0x00000000810d0459        0x0 ./Src/bios_bu.o
+ .data          0x00000000810d0459        0x0 ./Src/bios_hcmd.o
+ .data          0x00000000810d0459        0x0 ./Src/crs32v_int.o
+ .data          0x00000000810d0459        0x0 ./Src/global_variable.o
+ .data          0x00000000810d0459        0x0 ./Src/main.o
+ .data          0x00000000810d0459        0x0 ./Src/main_bios.o
+ .data          0x00000000810d0459        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+ .data          0x00000000810d0459        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000810d0459        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+                0x0000000040001000                . = ORIGIN (dram)
+
+.bss            0x0000000040001000      0x294
+                0x0000000040001000                . = ALIGN (0x4)
+                0x0000000040001000                _bss_start = .
+ *(.bss .bss.* .sbss .sbss.*)
+ .bss           0x0000000040001000        0x0 ./Src/UTIL/crs32v_print.o
+ .bss           0x0000000040001000        0x0 ./Src/UTIL/crs32v_sys_util.o
+ .bss           0x0000000040001000        0x0 ./Src/UTIL/printf.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_core.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_dmac.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_gpio.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_i2cs.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_iopc.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_mon.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_spim.o
+ .bss           0x0000000040001000        0x0 ./Src/LL/sys_sysc.o
+ .bss           0x0000000040001000        0x0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .bss           0x0000000040001000        0x0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .bss           0x0000000040001000        0x0 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .bss           0x0000000040001000        0x0 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .bss           0x0000000040001000        0x0 ./Src/bios_bu.o
+ .bss           0x0000000040001000        0x0 ./Src/bios_hcmd.o
+ .bss           0x0000000040001000        0x0 ./Src/crs32v_int.o
+ .bss           0x0000000040001000        0x0 ./Src/global_variable.o
+ .bss.gss       0x0000000040001000      0x24c ./Src/global_variable.o
+                0x0000000040001000                gss
+ .sbss.harg     0x000000004000124c        0x2 ./Src/global_variable.o
+                0x000000004000124c                harg
+ .sbss.haux     0x000000004000124e        0x2 ./Src/global_variable.o
+                0x000000004000124e                haux
+ .sbss.hcmd     0x0000000040001250        0x2 ./Src/global_variable.o
+                0x0000000040001250                hcmd
+ .sbss.hcmd_trig
+                0x0000000040001252        0x1 ./Src/global_variable.o
+                0x0000000040001252                hcmd_trig
+ *fill*         0x0000000040001253        0x1 
+ .sbss.hrdp16   0x0000000040001254        0x4 ./Src/global_variable.o
+                0x0000000040001254                hrdp16
+ .sbss.hrdp16_arg
+                0x0000000040001258        0x4 ./Src/global_variable.o
+                0x0000000040001258                hrdp16_arg
+ .sbss.hrdp32   0x000000004000125c        0x4 ./Src/global_variable.o
+                0x000000004000125c                hrdp32
+ .sbss.hrdp32_arg
+                0x0000000040001260        0x4 ./Src/global_variable.o
+                0x0000000040001260                hrdp32_arg
+ .sbss.hrdp8    0x0000000040001264        0x4 ./Src/global_variable.o
+                0x0000000040001264                hrdp8
+ .sbss.hrdp8_arg
+                0x0000000040001268        0x4 ./Src/global_variable.o
+                0x0000000040001268                hrdp8_arg
+ .sbss.htst     0x000000004000126c        0x2 ./Src/global_variable.o
+                0x000000004000126c                htst
+ *fill*         0x000000004000126e        0x2 
+ .sbss.hwdp16   0x0000000040001270        0x4 ./Src/global_variable.o
+                0x0000000040001270                hwdp16
+ .sbss.hwdp16_arg
+                0x0000000040001274        0x4 ./Src/global_variable.o
+                0x0000000040001274                hwdp16_arg
+ .sbss.hwdp32   0x0000000040001278        0x4 ./Src/global_variable.o
+                0x0000000040001278                hwdp32
+ .sbss.hwdp32_arg
+                0x000000004000127c        0x4 ./Src/global_variable.o
+                0x000000004000127c                hwdp32_arg
+ .sbss.hwdp8    0x0000000040001280        0x4 ./Src/global_variable.o
+                0x0000000040001280                hwdp8
+ .sbss.hwdp8_arg
+                0x0000000040001284        0x4 ./Src/global_variable.o
+                0x0000000040001284                hwdp8_arg
+ .sbss.mem16_fwld_tgt
+                0x0000000040001288        0x4 ./Src/global_variable.o
+                0x0000000040001288                mem16_fwld_tgt
+ .sbss.mem32_fwld_tgt
+                0x000000004000128c        0x4 ./Src/global_variable.o
+                0x000000004000128c                mem32_fwld_tgt
+ .sbss.mem8_fwld_tgt
+                0x0000000040001290        0x4 ./Src/global_variable.o
+                0x0000000040001290                mem8_fwld_tgt
+ .bss           0x0000000040001294        0x0 ./Src/main.o
+ .bss           0x0000000040001294        0x0 ./Src/main_bios.o
+ .bss           0x0000000040001294        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+ .bss           0x0000000040001294        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000040001294        0x0 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+ *(COMMON)
+                0x0000000040001294                _bss_end = .
+OUTPUT(BIOS.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x6416
+ .debug_info    0x0000000000000000      0x186 ./Src/UTIL/crs32v_print.o
+ .debug_info    0x0000000000000186      0x139 ./Src/UTIL/crs32v_sys_util.o
+ .debug_info    0x00000000000002bf      0x5b8 ./Src/UTIL/printf.o
+ .debug_info    0x0000000000000877      0x331 ./Src/LL/sys_core.o
+ .debug_info    0x0000000000000ba8       0x72 ./Src/LL/sys_dmac.o
+ .debug_info    0x0000000000000c1a       0x72 ./Src/LL/sys_gpio.o
+ .debug_info    0x0000000000000c8c      0x4a3 ./Src/LL/sys_i2cs.o
+ .debug_info    0x000000000000112f      0x3a2 ./Src/LL/sys_iopc.o
+ .debug_info    0x00000000000014d1       0x72 ./Src/LL/sys_mon.o
+ .debug_info    0x0000000000001543      0xc74 ./Src/LL/sys_spim.o
+ .debug_info    0x00000000000021b7       0x72 ./Src/LL/sys_sysc.o
+ .debug_info    0x0000000000002229      0x36b ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_info    0x0000000000002594      0x916 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_info    0x0000000000002eaa      0x776 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_info    0x0000000000003620       0x22 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .debug_info    0x0000000000003642      0x731 ./Src/bios_bu.o
+ .debug_info    0x0000000000003d73      0x656 ./Src/bios_hcmd.o
+ .debug_info    0x00000000000043c9      0x588 ./Src/crs32v_int.o
+ .debug_info    0x0000000000004951      0x4cf ./Src/global_variable.o
+ .debug_info    0x0000000000004e20      0x99e ./Src/main.o
+ .debug_info    0x00000000000057be      0xc58 ./Src/main_bios.o
+
+.debug_abbrev   0x0000000000000000     0x1494
+ .debug_abbrev  0x0000000000000000       0xd2 ./Src/UTIL/crs32v_print.o
+ .debug_abbrev  0x00000000000000d2       0xdb ./Src/UTIL/crs32v_sys_util.o
+ .debug_abbrev  0x00000000000001ad      0x20b ./Src/UTIL/printf.o
+ .debug_abbrev  0x00000000000003b8      0x125 ./Src/LL/sys_core.o
+ .debug_abbrev  0x00000000000004dd       0x26 ./Src/LL/sys_dmac.o
+ .debug_abbrev  0x0000000000000503       0x26 ./Src/LL/sys_gpio.o
+ .debug_abbrev  0x0000000000000529       0xf7 ./Src/LL/sys_i2cs.o
+ .debug_abbrev  0x0000000000000620      0x113 ./Src/LL/sys_iopc.o
+ .debug_abbrev  0x0000000000000733       0x26 ./Src/LL/sys_mon.o
+ .debug_abbrev  0x0000000000000759      0x22e ./Src/LL/sys_spim.o
+ .debug_abbrev  0x0000000000000987       0x26 ./Src/LL/sys_sysc.o
+ .debug_abbrev  0x00000000000009ad       0xcb ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_abbrev  0x0000000000000a78       0x98 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_abbrev  0x0000000000000b10       0xf0 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_abbrev  0x0000000000000c00       0x12 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .debug_abbrev  0x0000000000000c12      0x1df ./Src/bios_bu.o
+ .debug_abbrev  0x0000000000000df1      0x1c2 ./Src/bios_hcmd.o
+ .debug_abbrev  0x0000000000000fb3      0x145 ./Src/crs32v_int.o
+ .debug_abbrev  0x00000000000010f8       0xdd ./Src/global_variable.o
+ .debug_abbrev  0x00000000000011d5      0x113 ./Src/main.o
+ .debug_abbrev  0x00000000000012e8      0x1ac ./Src/main_bios.o
+
+.debug_loc      0x0000000000000000     0x1d72
+ .debug_loc     0x0000000000000000       0xde ./Src/UTIL/crs32v_print.o
+ .debug_loc     0x00000000000000de       0x9a ./Src/UTIL/crs32v_sys_util.o
+ .debug_loc     0x0000000000000178      0x9c6 ./Src/UTIL/printf.o
+ .debug_loc     0x0000000000000b3e       0x84 ./Src/LL/sys_core.o
+ .debug_loc     0x0000000000000bc2       0x3a ./Src/LL/sys_iopc.o
+ .debug_loc     0x0000000000000bfc      0x764 ./Src/LL/sys_spim.o
+ .debug_loc     0x0000000000001360      0x16f ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_loc     0x00000000000014cf      0x2d2 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_loc     0x00000000000017a1      0x107 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_loc     0x00000000000018a8      0x35e ./Src/bios_bu.o
+ .debug_loc     0x0000000000001c06      0x11a ./Src/bios_hcmd.o
+ .debug_loc     0x0000000000001d20       0x52 ./Src/main_bios.o
+
+.debug_aranges  0x0000000000000000      0x478
+ .debug_aranges
+                0x0000000000000000       0x28 ./Src/UTIL/crs32v_print.o
+ .debug_aranges
+                0x0000000000000028       0x38 ./Src/UTIL/crs32v_sys_util.o
+ .debug_aranges
+                0x0000000000000060       0x40 ./Src/UTIL/printf.o
+ .debug_aranges
+                0x00000000000000a0       0x28 ./Src/LL/sys_core.o
+ .debug_aranges
+                0x00000000000000c8       0x18 ./Src/LL/sys_dmac.o
+ .debug_aranges
+                0x00000000000000e0       0x18 ./Src/LL/sys_gpio.o
+ .debug_aranges
+                0x00000000000000f8       0x20 ./Src/LL/sys_i2cs.o
+ .debug_aranges
+                0x0000000000000118       0x20 ./Src/LL/sys_iopc.o
+ .debug_aranges
+                0x0000000000000138       0x18 ./Src/LL/sys_mon.o
+ .debug_aranges
+                0x0000000000000150       0x80 ./Src/LL/sys_spim.o
+ .debug_aranges
+                0x00000000000001d0       0x18 ./Src/LL/sys_sysc.o
+ .debug_aranges
+                0x00000000000001e8       0x20 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_aranges
+                0x0000000000000208       0xb0 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_aranges
+                0x00000000000002b8       0x30 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_aranges
+                0x00000000000002e8       0x28 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .debug_aranges
+                0x0000000000000310       0x20 ./Src/bios_bu.o
+ .debug_aranges
+                0x0000000000000330       0x40 ./Src/bios_hcmd.o
+ .debug_aranges
+                0x0000000000000370       0xb0 ./Src/crs32v_int.o
+ .debug_aranges
+                0x0000000000000420       0x18 ./Src/global_variable.o
+ .debug_aranges
+                0x0000000000000438       0x20 ./Src/main.o
+ .debug_aranges
+                0x0000000000000458       0x20 ./Src/main_bios.o
+
+.debug_ranges   0x0000000000000000      0x5b8
+ .debug_ranges  0x0000000000000000       0x40 ./Src/UTIL/crs32v_print.o
+ .debug_ranges  0x0000000000000040       0x58 ./Src/UTIL/crs32v_sys_util.o
+ .debug_ranges  0x0000000000000098       0x60 ./Src/UTIL/printf.o
+ .debug_ranges  0x00000000000000f8       0x18 ./Src/LL/sys_core.o
+ .debug_ranges  0x0000000000000110       0x10 ./Src/LL/sys_i2cs.o
+ .debug_ranges  0x0000000000000120       0x10 ./Src/LL/sys_iopc.o
+ .debug_ranges  0x0000000000000130       0x70 ./Src/LL/sys_spim.o
+ .debug_ranges  0x00000000000001a0       0x28 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_ranges  0x00000000000001c8      0x268 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_ranges  0x0000000000000430       0x50 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_ranges  0x0000000000000480       0x20 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .debug_ranges  0x00000000000004a0       0x10 ./Src/bios_bu.o
+ .debug_ranges  0x00000000000004b0       0x30 ./Src/bios_hcmd.o
+ .debug_ranges  0x00000000000004e0       0xa0 ./Src/crs32v_int.o
+ .debug_ranges  0x0000000000000580       0x28 ./Src/main.o
+ .debug_ranges  0x00000000000005a8       0x10 ./Src/main_bios.o
+
+.debug_line     0x0000000000000000     0x85e5
+ .debug_line    0x0000000000000000      0x22a ./Src/UTIL/crs32v_print.o
+ .debug_line    0x000000000000022a      0x2b6 ./Src/UTIL/crs32v_sys_util.o
+ .debug_line    0x00000000000004e0      0xf2d ./Src/UTIL/printf.o
+ .debug_line    0x000000000000140d      0x1e9 ./Src/LL/sys_core.o
+ .debug_line    0x00000000000015f6       0x1d ./Src/LL/sys_dmac.o
+ .debug_line    0x0000000000001613       0x1d ./Src/LL/sys_gpio.o
+ .debug_line    0x0000000000001630      0x54d ./Src/LL/sys_i2cs.o
+ .debug_line    0x0000000000001b7d      0x28e ./Src/LL/sys_iopc.o
+ .debug_line    0x0000000000001e0b       0x1d ./Src/LL/sys_mon.o
+ .debug_line    0x0000000000001e28     0x180b ./Src/LL/sys_spim.o
+ .debug_line    0x0000000000003633       0x1d ./Src/LL/sys_sysc.o
+ .debug_line    0x0000000000003650      0x4f6 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_line    0x0000000000003b46      0x80b ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_line    0x0000000000004351      0x553 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_line    0x00000000000048a4      0x64a ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+ .debug_line    0x0000000000004eee      0xdf5 ./Src/bios_bu.o
+ .debug_line    0x0000000000005ce3      0xec0 ./Src/bios_hcmd.o
+ .debug_line    0x0000000000006ba3      0x92b ./Src/crs32v_int.o
+ .debug_line    0x00000000000074ce      0x182 ./Src/global_variable.o
+ .debug_line    0x0000000000007650      0x666 ./Src/main.o
+ .debug_line    0x0000000000007cb6      0x92f ./Src/main_bios.o
+
+.debug_str      0x0000000000000000     0x1480
+ .debug_str     0x0000000000000000      0x1aa ./Src/UTIL/crs32v_print.o
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x00000000000001aa       0x5a ./Src/UTIL/crs32v_sys_util.o
+                                        0x216 (size before relaxing)
+ .debug_str     0x0000000000000204       0xff ./Src/UTIL/printf.o
+                                        0x2ca (size before relaxing)
+ .debug_str     0x0000000000000303      0x100 ./Src/LL/sys_core.o
+                                        0x2c5 (size before relaxing)
+ .debug_str     0x0000000000000403       0x15 ./Src/LL/sys_dmac.o
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x0000000000000418       0x15 ./Src/LL/sys_gpio.o
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x000000000000042d      0x164 ./Src/LL/sys_i2cs.o
+                                        0x3c7 (size before relaxing)
+ .debug_str     0x0000000000000591      0x29d ./Src/LL/sys_iopc.o
+                                        0x518 (size before relaxing)
+ .debug_str     0x000000000000082e       0x14 ./Src/LL/sys_mon.o
+                                        0x1b4 (size before relaxing)
+ .debug_str     0x0000000000000842      0x2d3 ./Src/LL/sys_spim.o
+                                        0x81a (size before relaxing)
+ .debug_str     0x0000000000000b15       0x15 ./Src/LL/sys_sysc.o
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x0000000000000b2a       0x92 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+                                        0x266 (size before relaxing)
+ .debug_str     0x0000000000000bbc      0x331 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                        0x4d1 (size before relaxing)
+ .debug_str     0x0000000000000eed       0x79 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                                        0x22d (size before relaxing)
+ .debug_str     0x0000000000000f66       0x32 ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+                                         0x77 (size before relaxing)
+ .debug_str     0x0000000000000f98      0x19d ./Src/bios_bu.o
+                                        0x6d8 (size before relaxing)
+ .debug_str     0x0000000000001135       0x8f ./Src/bios_hcmd.o
+                                        0x5dd (size before relaxing)
+ .debug_str     0x00000000000011c4       0x44 ./Src/crs32v_int.o
+                                        0x365 (size before relaxing)
+ .debug_str     0x0000000000001208       0x5d ./Src/global_variable.o
+                                        0x548 (size before relaxing)
+ .debug_str     0x0000000000001265      0x1f9 ./Src/main.o
+                                        0x6e8 (size before relaxing)
+ .debug_str     0x000000000000145e       0x22 ./Src/main_bios.o
+                                        0x98c (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./Src/UTIL/crs32v_print.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./Src/UTIL/crs32v_sys_util.o
+ .comment       0x0000000000000033       0x34 ./Src/UTIL/printf.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_core.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_dmac.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_gpio.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_i2cs.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_iopc.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_mon.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_spim.o
+ .comment       0x0000000000000033       0x34 ./Src/LL/sys_sysc.o
+ .comment       0x0000000000000033       0x34 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .comment       0x0000000000000033       0x34 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .comment       0x0000000000000033       0x34 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .comment       0x0000000000000033       0x34 ./Src/bios_bu.o
+ .comment       0x0000000000000033       0x34 ./Src/bios_hcmd.o
+ .comment       0x0000000000000033       0x34 ./Src/crs32v_int.o
+ .comment       0x0000000000000033       0x34 ./Src/global_variable.o
+ .comment       0x0000000000000033       0x34 ./Src/main.o
+ .comment       0x0000000000000033       0x34 ./Src/main_bios.o
+ .comment       0x0000000000000033       0x34 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+ .comment       0x0000000000000033       0x34 c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+
+.debug_frame    0x0000000000000000      0x900
+ .debug_frame   0x0000000000000000       0x68 ./Src/UTIL/crs32v_print.o
+ .debug_frame   0x0000000000000068       0x50 ./Src/UTIL/crs32v_sys_util.o
+ .debug_frame   0x00000000000000b8      0x100 ./Src/UTIL/printf.o
+ .debug_frame   0x00000000000001b8       0x30 ./Src/LL/sys_core.o
+ .debug_frame   0x00000000000001e8       0x20 ./Src/LL/sys_i2cs.o
+ .debug_frame   0x0000000000000208       0x20 ./Src/LL/sys_iopc.o
+ .debug_frame   0x0000000000000228      0x108 ./Src/LL/sys_spim.o
+ .debug_frame   0x0000000000000330       0x50 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+ .debug_frame   0x0000000000000380      0x270 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+ .debug_frame   0x00000000000005f0       0x64 ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+ .debug_frame   0x0000000000000654       0x64 ./Src/bios_bu.o
+ .debug_frame   0x00000000000006b8       0x7c ./Src/bios_hcmd.o
+ .debug_frame   0x0000000000000734      0x160 ./Src/crs32v_int.o
+ .debug_frame   0x0000000000000894       0x2c ./Src/main.o
+ .debug_frame   0x00000000000008c0       0x40 ./Src/main_bios.o
+
+Cross Reference Table
+
+Symbol                                            File
+BIOS_HCMD_ACC_REG                                 ./Src/bios_hcmd.o
+                                                  ./Src/main_bios.o
+BIOS_HCMD_CLEAR_INT                               ./Src/bios_hcmd.o
+                                                  ./Src/main_bios.o
+BIOS_HCMD_EVAL                                    ./Src/bios_hcmd.o
+                                                  ./Src/main_bios.o
+BIOS_HCMD_RUN_CPU                                 ./Src/bios_hcmd.o
+                                                  ./Src/main_bios.o
+BIOS_HCMD_SE                                      ./Src/bios_hcmd.o
+                                                  ./Src/main_bios.o
+_boot_init                                        ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_bss_end                                          ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_bss_start                                        ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_ctype_                                           c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-ctype_.o)
+                                                  ./Src/UTIL/printf.o
+_fini                                             ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_init                                             ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_stack_start                                      ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_start                                            ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_exc                                 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_00                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_01                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_02                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_03                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_04                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_05                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_06                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_07                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_08                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_09                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_10                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_11                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_12                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_13                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_14                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_irq_15                              ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_mei                                 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_msi                                 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_handler_mti                                 ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+_trap_vector_table                                ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+basic_delay                                       ./Src/UTIL/crs32v_sys_util.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+bu_fwld                                           ./Src/bios_bu.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/bios_hcmd.o
+crs32v_int_check                                  ./Src/crs32v_int.o
+crs32v_int_check_mtsf                             ./Src/crs32v_int.o
+crs32v_printf                                     ./Src/UTIL/printf.o
+crs32v_trap_mei                                   ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_00                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_01                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_02                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_03                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_04                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_05                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_06                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_07                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_08                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_09                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_10                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_11                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_12                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_13                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_14                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mfi_15                                ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_msi                                   ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_trap_mti                                   ./Src/crs32v_int.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_irq.o
+crs32v_vsprintf                                   ./Src/UTIL/printf.o
+crt_trap_irq_00                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_01                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_02                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_03                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_04                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_05                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_06                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_07                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_08                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_09                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_10                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_11                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_12                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_13                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_14                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+crt_trap_irq_15                                   ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+csr_check                                         ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+csr_exc_init_stack_check                          ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+csr_int_init_fast_int_vector                      ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                                                  ./Src/main.o
+ef_chip_erase                                     ./Src/LL/sys_spim.o
+ef_chk_ff                                         ./Src/LL/sys_spim.o
+ef_page_program                                   ./Src/LL/sys_spim.o
+ef_rdid                                           ./Src/LL/sys_spim.o
+ef_rdsr                                           ./Src/LL/sys_spim.o
+ef_read                                           ./Src/LL/sys_spim.o
+                                                  ./Src/bios_bu.o
+ef_sector_erase                                   ./Src/LL/sys_spim.o
+ef_wait_ready                                     ./Src/LL/sys_spim.o
+ef_wren                                           ./Src/LL/sys_spim.o
+ef_wrsr                                           ./Src/LL/sys_spim.o
+ef_wrsr_01H_2B                                    ./Src/LL/sys_spim.o
+ef_wrsr_31H                                       ./Src/LL/sys_spim.o
+gss                                               ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/bios_hcmd.o
+                                                  ./Src/bios_bu.o
+                                                  ./Src/LL/sys_spim.o
+                                                  ./Src/LL/sys_iopc.o
+harg                                              ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/bios_hcmd.o
+                                                  ./Src/LL/sys_i2cs.o
+haux                                              ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/LL/sys_i2cs.o
+hcmd                                              ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/bios_hcmd.o
+                                                  ./Src/LL/sys_i2cs.o
+hcmd_trig                                         ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/LL/sys_i2cs.o
+hrdp16                                            ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/LL/sys_i2cs.o
+hrdp16_arg                                        ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+hrdp32                                            ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+hrdp32_arg                                        ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/bios_hcmd.o
+hrdp8                                             ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+hrdp8_arg                                         ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+htst                                              ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/LL/sys_i2cs.o
+hwdp16                                            ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/LL/sys_i2cs.o
+hwdp16_arg                                        ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+hwdp32                                            ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+hwdp32_arg                                        ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+                                                  ./Src/bios_hcmd.o
+hwdp8                                             ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+hwdp8_arg                                         ./Src/global_variable.o
+                                                  ./Src/main_bios.o
+int_srv_i2cs                                      ./Src/LL/sys_i2cs.o
+                                                  ./Src/crs32v_int.o
+jump_to_app_core                                  ./Src/LL/sys_core.o
+jump_to_fw                                        ./Src/LL/sys_core.o
+                                                  ./Src/bios_hcmd.o
+led_delay                                         ./Src/UTIL/crs32v_sys_util.o
+main                                              ./Src/main.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+main_bios                                         ./Src/main_bios.o
+                                                  ./Src/main.o
+mem16_fwld_tgt                                    ./Src/global_variable.o
+                                                  ./Src/bios_bu.o
+mem32_fwld_tgt                                    ./Src/global_variable.o
+                                                  ./Src/bios_bu.o
+mem8_fwld_tgt                                     ./Src/global_variable.o
+                                                  ./Src/bios_bu.o
+memset                                            c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                                                  ./Src/UTIL/printf.o
+print_hex                                         ./Src/UTIL/crs32v_print.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+print_str                                         ./Src/UTIL/crs32v_print.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/crs32v_crt0.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/CSR/crs32v_csr.o
+                                                  ./Src/CRT0_LD_TRAP_CSR/TRAP/crs32v_trap_handler_exc.o
+set_hintn                                         ./Src/LL/sys_iopc.o
+                                                  ./Src/bios_hcmd.o
+spim_cmdgen                                       ./Src/LL/sys_spim.o
+                                                  ./Src/bios_hcmd.o
+sprintf                                           ./Src/UTIL/printf.o
+strnlen                                           c:/users/dan/appdata/roaming/xpacks/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/../lib/gcc/riscv-none-embed/10.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-strnlen.o)
+                                                  ./Src/UTIL/printf.o
+uart_init                                         ./Src/UTIL/crs32v_sys_util.o
+uart_tx_byte                                      ./Src/UTIL/crs32v_sys_util.o
+                                                  ./Src/UTIL/printf.o
+                                                  ./Src/UTIL/crs32v_print.o

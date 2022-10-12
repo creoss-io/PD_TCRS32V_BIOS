@@ -1,0 +1,62 @@
+//##############################################################################
+//
+//	Global Include
+//
+//	Modules Name	: global_include.h
+//	Company		: Creoss Inc
+//
+//----------------------------------------------------------------------
+//	[Functional Description]
+//
+//		- CRS32V Global Include
+//
+//----------------------------------------------------------------------
+//	[Revistion History]
+//
+//		[V0.0.1]	
+//
+//##############################################################################
+
+
+#ifndef		__GLOBAL_INCLUDE_H__
+#define		__GLOBAL_INCLUDE_H__
+
+#include	<stdint.h>
+#include	<stdbool.h>
+#include	<stdlib.h>
+#include	<stdio.h>
+#include	<string.h>
+
+
+#include	"stdarg.h"
+#include	"ctype.h"
+
+
+#include	<crs32v_sys_config.h>
+#include	"crs32v_csr.h"
+#include	"crs32v_sys_util.h"
+#include	"printf.h"
+#include	"crs32v_int.h"
+#include	<crs32v_trap_handler_exc.h>
+
+#include	<global_code.h>
+#include	<global_variable.h>
+
+#include	<sys_define.h>
+#include	<sys_core.h>
+#include	<sys_sysc.h>
+#include	<sys_dmac.h>
+#include	<sys_iopc.h>
+#include	<sys_i2cs.h>
+#include	<sys_spim.h>
+#include	<sys_gpio.h>
+#include	<sys_mon.h>
+
+#include	<bios_hcmd.h>
+#include	<bios_bu.h>
+
+#include	<main_bios.h>
+
+
+
+#endif	//	__GLOBAL_INCLUDE_H__

@@ -1,0 +1,20 @@
+08:56:52 **** Incremental Build of configuration Release for project hello ****
+make all 
+Building target: hello.elf
+Invoking: GNU RISC-V Cross C++ Linker
+riscv-none-embed-g++ -march=rv32imac -mabi=ilp32 -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -Xlinker --gc-sections -Wl,-Map,"hello.map" --specs=nosys.specs -o "hello.elf" ./src/main.o   
+Finished building target: hello.elf
+ 
+Invoking: GNU RISC-V Cross Create Flash Image
+riscv-none-embed-objcopy -O ihex "hello.elf"  "hello.hex"
+Finished building: hello.hex
+ 
+Invoking: GNU RISC-V Cross Print Size
+riscv-none-embed-size --format=berkeley "hello.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 304352	   3068	   6008	 313428	  4c854	hello.elf
+Finished building: hello.siz
+ 
+
+08:56:53 Build Finished. 0 errors, 0 warnings. (took 760ms)
+

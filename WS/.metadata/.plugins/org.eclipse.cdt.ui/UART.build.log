@@ -1,0 +1,48 @@
+13:30:03 **** Build of configuration Release for project UART ****
+make all 
+Building file: ../Lib_CRS32V/UTIL/crs32v_print.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"Lib_CRS32V/UTIL/crs32v_print.d" -MT"Lib_CRS32V/UTIL/crs32v_print.o" -c -o "Lib_CRS32V/UTIL/crs32v_print.o" "../Lib_CRS32V/UTIL/crs32v_print.c"
+Finished building: ../Lib_CRS32V/UTIL/crs32v_print.c
+ 
+Building file: ../Lib_CRS32V/UTIL/crs32v_sys_util.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"Lib_CRS32V/UTIL/crs32v_sys_util.d" -MT"Lib_CRS32V/UTIL/crs32v_sys_util.o" -c -o "Lib_CRS32V/UTIL/crs32v_sys_util.o" "../Lib_CRS32V/UTIL/crs32v_sys_util.c"
+Finished building: ../Lib_CRS32V/UTIL/crs32v_sys_util.c
+ 
+Building file: ../Lib_CRS32V/UTIL/printf.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"Lib_CRS32V/UTIL/printf.d" -MT"Lib_CRS32V/UTIL/printf.o" -c -o "Lib_CRS32V/UTIL/printf.o" "../Lib_CRS32V/UTIL/printf.c"
+Finished building: ../Lib_CRS32V/UTIL/printf.c
+ 
+Building file: ../Lib_CRS32V/TRAP/crs32v_trap_handler_exc.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"Lib_CRS32V/TRAP/crs32v_trap_handler_exc.d" -MT"Lib_CRS32V/TRAP/crs32v_trap_handler_exc.o" -c -o "Lib_CRS32V/TRAP/crs32v_trap_handler_exc.o" "../Lib_CRS32V/TRAP/crs32v_trap_handler_exc.c"
+Finished building: ../Lib_CRS32V/TRAP/crs32v_trap_handler_exc.c
+ 
+Building file: ../Lib_CRS32V/TRAP/crs32v_trap_handler_irq.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"Lib_CRS32V/TRAP/crs32v_trap_handler_irq.d" -MT"Lib_CRS32V/TRAP/crs32v_trap_handler_irq.o" -c -o "Lib_CRS32V/TRAP/crs32v_trap_handler_irq.o" "../Lib_CRS32V/TRAP/crs32v_trap_handler_irq.c"
+Finished building: ../Lib_CRS32V/TRAP/crs32v_trap_handler_irq.c
+ 
+Building file: ../Lib_CRS32V/CSR/crs32v_csr.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"Lib_CRS32V/CSR/crs32v_csr.d" -MT"Lib_CRS32V/CSR/crs32v_csr.o" -c -o "Lib_CRS32V/CSR/crs32v_csr.o" "../Lib_CRS32V/CSR/crs32v_csr.c"
+Finished building: ../Lib_CRS32V/CSR/crs32v_csr.c
+ 
+Building file: ../crs32v_int.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"crs32v_int.d" -MT"crs32v_int.o" -c -o "crs32v_int.o" "../crs32v_int.c"
+Finished building: ../crs32v_int.c
+ 
+Building file: ../uart_test.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv-none-embed-gcc -march=rv32imac -mabi=ilp32 -mtune=size -msmall-data-limit=8 -mno-save-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -std=gnu11 -MMD -MP -MF"uart_test.d" -MT"uart_test.o" -c -o "uart_test.o" "../uart_test.c"
+Finished building: ../uart_test.c
+ 
+make[1]: *** No rule to make target 'D:/Project/11_IC_Platform/Lambda/trunk/sti/c++/UART/Lib_CRS32V/CRT0/crs32v_crt0.o', needed by 'UART.elf'.  Stop.
+make: *** [makefile:53: all] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:30:05 Build Failed. 2 errors, 0 warnings. (took 2s.12ms)
+
